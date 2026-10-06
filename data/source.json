@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-09-29 14:20:00 +0800",
+  "expertFiles": 623,
+  "divisions": [
+    "academic",
+    "company",
+    "design",
+    "engineering",
+    "finance",
+    "game-development",
+    "gis",
+    "healthcare",
+    "hr",
+    "legal",
+    "marketing",
+    "paid-media",
+    "product",
+    "project-management",
+    "research",
+    "sales",
+    "security",
+    "spatial-computing",
+    "specialized",
+    "supply-chain",
+    "support",
+    "testing"
+  ],
+  "note": "本仓名册清单：data/experts 是真源（含从 WorkBuddy 导入的目录形态专家）。2026-09-29 移除 22 位绑定腾讯内部系统的专家（代码层端点指向 *.woa.com 等内网域名），645 → 623。"
+}
