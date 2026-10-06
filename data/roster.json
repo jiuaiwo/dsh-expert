@@ -1,0 +1,3955 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-29T10:06:13.088Z",
+  "baseUrl": "https://aitoolsdata.obs.cn-south-4.myhuaweicloud.com/agetn",
+  "threshold": 51200,
+  "packs": {
+    "academic/family-education-ma": {
+      "division": "academic",
+      "slug": "family-education-ma",
+      "path": "packs/academic/family-education-ma.tar.gz",
+      "bytes": 370537,
+      "rawBytes": 963250,
+      "files": 76,
+      "sha256": "4b85451a2a5f27c681ee9b12dd7773a17c3294a68e926b75b5333726565320fb",
+      "dirs": [
+        "agents",
+        "avatars",
+        "examples",
+        "references",
+        "skills"
+      ]
+    },
+    "academic/ket-prep-team": {
+      "division": "academic",
+      "slug": "ket-prep-team",
+      "path": "packs/academic/ket-prep-team.tar.gz",
+      "bytes": 4148,
+      "rawBytes": 3720,
+      "files": 1,
+      "sha256": "6e1bc924219d90799f9bf5980fd965c981884f7e319cb066138f6d23964d7232",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "academic/liuxue-yanxue-expert": {
+      "division": "academic",
+      "slug": "liuxue-yanxue-expert",
+      "path": "packs/academic/liuxue-yanxue-expert.tar.gz",
+      "bytes": 3011,
+      "rawBytes": 2584,
+      "files": 1,
+      "sha256": "2ea893e12628cb09e0e3b03e1ce920744e5d7823bfc15eab8dae69fb0da4f279",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "academic/study-fortune-compass": {
+      "division": "academic",
+      "slug": "study-fortune-compass",
+      "path": "packs/academic/study-fortune-compass.tar.gz",
+      "bytes": 47607,
+      "rawBytes": 153635,
+      "files": 14,
+      "sha256": "74ce8051a2a00dbd293150cdf0d920fa95c92e0e1bb567aeeb017b69646696e6",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "company/campus-event-navigator": {
+      "division": "company",
+      "slug": "campus-event-navigator",
+      "path": "packs/company/campus-event-navigator.tar.gz",
+      "bytes": 5921,
+      "rawBytes": 5482,
+      "files": 1,
+      "sha256": "7e650b5209f5445a165c5f2039b7c39f20700c729e7c09463071736aa62c55e2",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "company/fortune-master": {
+      "division": "company",
+      "slug": "fortune-master",
+      "path": "packs/company/fortune-master.tar.gz",
+      "bytes": 464906,
+      "rawBytes": 2836954,
+      "files": 189,
+      "sha256": "67af529875e6c42c674845fafe41029796189a051eb949e2edb963f43fc22337",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "company/gaokao-advisor": {
+      "division": "company",
+      "slug": "gaokao-advisor",
+      "path": "packs/company/gaokao-advisor.tar.gz",
+      "bytes": 107062,
+      "rawBytes": 401866,
+      "files": 37,
+      "sha256": "cde0c333b0e505c76a06ea5b492518270f4e336713b0807cfe1b182d71767e36",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "company/multi-cloud-expert": {
+      "division": "company",
+      "slug": "multi-cloud-expert",
+      "path": "packs/company/multi-cloud-expert.tar.gz",
+      "bytes": 2604,
+      "rawBytes": 2178,
+      "files": 1,
+      "sha256": "04e27013a90c090a5576b73d5ef2b220b9cd8727f3c46dc67141fdd34adf2703",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "company/multi-cloud-management-expert": {
+      "division": "company",
+      "slug": "multi-cloud-management-expert",
+      "path": "packs/company/multi-cloud-management-expert.tar.gz",
+      "bytes": 58198,
+      "rawBytes": 190645,
+      "files": 15,
+      "sha256": "a21f48df020ebff31713d66f150e6a5ced07e42a56eb7f07717186b0a50f1acc",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "company/opc-team": {
+      "division": "company",
+      "slug": "opc-team",
+      "path": "packs/company/opc-team.tar.gz",
+      "bytes": 45578,
+      "rawBytes": 107878,
+      "files": 41,
+      "sha256": "8af9b919fd073c40c10921097cf2d8909c683730233fa0540afc3c07c6b4bcd2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "company/paper-topic-selection": {
+      "division": "company",
+      "slug": "paper-topic-selection",
+      "path": "packs/company/paper-topic-selection.tar.gz",
+      "bytes": 40401,
+      "rawBytes": 123044,
+      "files": 12,
+      "sha256": "cbcb4d6eb2547208a49013f6ac37dfe2be402b49c0b42943f5aa05888a5da2c1",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "references",
+        "skills"
+      ]
+    },
+    "company/tanyuan-cultural-heritage-expert": {
+      "division": "company",
+      "slug": "tanyuan-cultural-heritage-expert",
+      "path": "packs/company/tanyuan-cultural-heritage-expert.tar.gz",
+      "bytes": 23995,
+      "rawBytes": 57406,
+      "files": 6,
+      "sha256": "2a0d5908cefe9aebc1a73556997a98148c74c26944fe3ddb48e053c868ed2635",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/ai-image-prompt-engineer": {
+      "division": "design",
+      "slug": "ai-image-prompt-engineer",
+      "path": "packs/design/ai-image-prompt-engineer.tar.gz",
+      "bytes": 29198,
+      "rawBytes": 174514,
+      "files": 34,
+      "sha256": "2d4a146aa889ea86e85e9e7290a0e2090c3cdc3650d09a862ea93844261a3130",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "design/ask-liuxiaopai": {
+      "division": "design",
+      "slug": "ask-liuxiaopai",
+      "path": "packs/design/ask-liuxiaopai.tar.gz",
+      "bytes": 55908,
+      "rawBytes": 120077,
+      "files": 28,
+      "sha256": "4a2212ef2945aba5ee001f972b3197a2577b47c6d251a0bf26679c150ad55e2b",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/delightful-experience-designer": {
+      "division": "design",
+      "slug": "delightful-experience-designer",
+      "path": "packs/design/delightful-experience-designer.tar.gz",
+      "bytes": 4749,
+      "rawBytes": 4308,
+      "files": 1,
+      "sha256": "2ef4a36aba9cac712a414e0e34b70eed1c737a7f4568e5dc0ac7820e973dac9e",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "design/design-engine": {
+      "division": "design",
+      "slug": "design-engine",
+      "path": "packs/design/design-engine.tar.gz",
+      "bytes": 31986,
+      "rawBytes": 64072,
+      "files": 16,
+      "sha256": "311bbf8343005eef14147714a1a078347f6cfd91aca525cdc31c2c4fd0e04437",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/design-md-architect": {
+      "division": "design",
+      "slug": "design-md-architect",
+      "path": "packs/design/design-md-architect.tar.gz",
+      "bytes": 2782258,
+      "rawBytes": 5946330,
+      "files": 139,
+      "sha256": "0ae5a6250d23f108f447c1295b7c621d21f3d2b0388034febd6b47647a1a325c",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "design/design-prototype-expert": {
+      "division": "design",
+      "slug": "design-prototype-expert",
+      "path": "packs/design/design-prototype-expert.tar.gz",
+      "bytes": 34720,
+      "rawBytes": 83544,
+      "files": 12,
+      "sha256": "ca189f9d2232ea9af70d1281ce09d370871b5c5284e83e6f1585aff5fb121258",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/diversity-visual-expert": {
+      "division": "design",
+      "slug": "diversity-visual-expert",
+      "path": "packs/design/diversity-visual-expert.tar.gz",
+      "bytes": 3631,
+      "rawBytes": 3200,
+      "files": 1,
+      "sha256": "f45b915ecb19a0c1506b8c48e6c475c46e73f854388279ad2ccc015b1739fbe9",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "design/feedback-synthesis-analyst": {
+      "division": "design",
+      "slug": "feedback-synthesis-analyst",
+      "path": "packs/design/feedback-synthesis-analyst.tar.gz",
+      "bytes": 1168188,
+      "rawBytes": 3745075,
+      "files": 483,
+      "sha256": "c9e840a454206945044998b64d110508aab293af3fead64b2e646e09d1fb89bf",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/mermaid-diagram-expert": {
+      "division": "design",
+      "slug": "mermaid-diagram-expert",
+      "path": "packs/design/mermaid-diagram-expert.tar.gz",
+      "bytes": 4765,
+      "rawBytes": 4334,
+      "files": 1,
+      "sha256": "2b284fbee22fc4967ffa0b0f415a13b0d7c5f2f3cdacf282f42ee6e48a9ea444",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "design/migraq-team": {
+      "division": "design",
+      "slug": "migraq-team",
+      "path": "packs/design/migraq-team.tar.gz",
+      "bytes": 45771,
+      "rawBytes": 126462,
+      "files": 13,
+      "sha256": "87dc25cb3fda208c42c88b713771aa1a46d8055fcd958e2437f8c601341d48c4",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/ngo-challenge-advisor": {
+      "division": "design",
+      "slug": "ngo-challenge-advisor",
+      "path": "packs/design/ngo-challenge-advisor.tar.gz",
+      "bytes": 3882,
+      "rawBytes": 3450,
+      "files": 1,
+      "sha256": "fce336c42b1f7a14701af29f2b45b2ac9381101d6f9d4883f3d1e5ae3dd1d202",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "design/product-management": {
+      "division": "design",
+      "slug": "product-management",
+      "path": "packs/design/product-management.tar.gz",
+      "bytes": 38197,
+      "rawBytes": 98539,
+      "files": 9,
+      "sha256": "29e388fde58da8e4b1a9c7d4d76f5f7eae5824cd7549e381db594a2a736b960e",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "design/product-strategy-team": {
+      "division": "design",
+      "slug": "product-strategy-team",
+      "path": "packs/design/product-strategy-team.tar.gz",
+      "bytes": 4800,
+      "rawBytes": 4364,
+      "files": 1,
+      "sha256": "a63d189c4155d1bf11efc3dd10578d36fd4081b4f3c571d296fb67e3ac6f0d8d",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "design/tripstar-agent": {
+      "division": "design",
+      "slug": "tripstar-agent",
+      "path": "packs/design/tripstar-agent.tar.gz",
+      "bytes": 129788,
+      "rawBytes": 457134,
+      "files": 37,
+      "sha256": "841c7a050572e343f1b5fa7a47fcd5d0afd9b096a0dbbde399474fe44da5ef53",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "design/user-experience-architect": {
+      "division": "design",
+      "slug": "user-experience-architect",
+      "path": "packs/design/user-experience-architect.tar.gz",
+      "bytes": 4007,
+      "rawBytes": 3576,
+      "files": 1,
+      "sha256": "f1121f8ab13428c0bdbc0c31e8751934f864689087afaa07aa40f8e48f8a9678",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "design/user-experience-researcher": {
+      "division": "design",
+      "slug": "user-experience-researcher",
+      "path": "packs/design/user-experience-researcher.tar.gz",
+      "bytes": 351277,
+      "rawBytes": 1565858,
+      "files": 84,
+      "sha256": "5b3375ef3dfa33863d4e6ffca8c628f8327947521235e78cd985c201a8f9358d",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "design/workflow-assistant": {
+      "division": "design",
+      "slug": "workflow-assistant",
+      "path": "packs/design/workflow-assistant.tar.gz",
+      "bytes": 61381,
+      "rawBytes": 201330,
+      "files": 33,
+      "sha256": "a86d818b90beff878cc9d640e557af3a9bf307530886a7bd1cc6614f5a188336",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/academic-journal-selector": {
+      "division": "engineering",
+      "slug": "academic-journal-selector",
+      "path": "packs/engineering/academic-journal-selector.tar.gz",
+      "bytes": 55470,
+      "rawBytes": 138919,
+      "files": 18,
+      "sha256": "568cd20f16d10276b8189a0cedee470cb883f1d49cfa42b9b34a01268d0d0c41",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "scripts"
+      ]
+    },
+    "engineering/ai-data-copilot": {
+      "division": "engineering",
+      "slug": "ai-data-copilot",
+      "path": "packs/engineering/ai-data-copilot.tar.gz",
+      "bytes": 33546,
+      "rawBytes": 71446,
+      "files": 13,
+      "sha256": "a7159973f98ba20d48d6037dc4d71b0cdd398a01cb25810a6459ec4828d82219",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/aicoding-architecture-expert-team": {
+      "division": "engineering",
+      "slug": "aicoding-architecture-expert-team",
+      "path": "packs/engineering/aicoding-architecture-expert-team.tar.gz",
+      "bytes": 661289,
+      "rawBytes": 4151379,
+      "files": 276,
+      "sha256": "d19a2b4eb91d0d7d7993c26a9bcb00015acb81fc0b37c6df9fefd75b86e52749",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "skills"
+      ]
+    },
+    "engineering/aihot": {
+      "division": "engineering",
+      "slug": "aihot",
+      "path": "packs/engineering/aihot.tar.gz",
+      "bytes": 2194,
+      "rawBytes": 1766,
+      "files": 1,
+      "sha256": "1dec4221d42062d06c162ae6815afed65936cc6c9ec0ead654a8cb21530947a6",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/api-dev": {
+      "division": "engineering",
+      "slug": "api-dev",
+      "path": "packs/engineering/api-dev.tar.gz",
+      "bytes": 3405,
+      "rawBytes": 2974,
+      "files": 1,
+      "sha256": "c54b5f4e0f523526f41480a8a6b9b97b0892004a3ce13aaabf8148342675121c",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/arxiv-watcher": {
+      "division": "engineering",
+      "slug": "arxiv-watcher",
+      "path": "packs/engineering/arxiv-watcher.tar.gz",
+      "bytes": 4191,
+      "rawBytes": 3756,
+      "files": 1,
+      "sha256": "e355fbbc786153eedcec5c486b3a8ec878a55beaeb65940396bb6ddcae3f49d0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/cat-network-quality-analyst": {
+      "division": "engineering",
+      "slug": "cat-network-quality-analyst",
+      "path": "packs/engineering/cat-network-quality-analyst.tar.gz",
+      "bytes": 5104,
+      "rawBytes": 4668,
+      "files": 1,
+      "sha256": "644f99eab0271e107382c685a4982c72a9dec28812bbc5d44b83de3661299efe",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/code": {
+      "division": "engineering",
+      "slug": "code",
+      "path": "packs/engineering/code.tar.gz",
+      "bytes": 3261,
+      "rawBytes": 2830,
+      "files": 1,
+      "sha256": "0c74e27a7e8f903cdd3ae083fbef69b2f38956612e10830767d7faf4a22ceda2",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/code-review-expert": {
+      "division": "engineering",
+      "slug": "code-review-expert",
+      "path": "packs/engineering/code-review-expert.tar.gz",
+      "bytes": 3164,
+      "rawBytes": 2732,
+      "files": 1,
+      "sha256": "98275e0a408d3e164b488e43ea1ff4e82b24262c20e5b69014d34420775556a0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/data": {
+      "division": "engineering",
+      "slug": "data",
+      "path": "packs/engineering/data.tar.gz",
+      "bytes": 45968,
+      "rawBytes": 123206,
+      "files": 15,
+      "sha256": "81ab41dc5829b2520719c72fbb6269e6f1d43c944f633df1b691a2e6707e8ec3",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "engineering/data-analytics-reporter": {
+      "division": "engineering",
+      "slug": "data-analytics-reporter",
+      "path": "packs/engineering/data-analytics-reporter.tar.gz",
+      "bytes": 23613,
+      "rawBytes": 52282,
+      "files": 7,
+      "sha256": "fdd4d4d5ddde54f9d61fa3eaff1a681cf9a60012da219e310d8e3895b30cfab9",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/database-operations": {
+      "division": "engineering",
+      "slug": "database-operations",
+      "path": "packs/engineering/database-operations.tar.gz",
+      "bytes": 3615,
+      "rawBytes": 3178,
+      "files": 1,
+      "sha256": "780e3616018eb5b687cac0cd12e2ccb2d419a0d79cb0927fa43329aab60ee992",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/deep-research": {
+      "division": "engineering",
+      "slug": "deep-research",
+      "path": "packs/engineering/deep-research.tar.gz",
+      "bytes": 27064,
+      "rawBytes": 64924,
+      "files": 6,
+      "sha256": "5472ead22d5dcef6a5ba5f471bc7d2a6882ea4ca2223100af18d532ca32abaa0",
+      "dirs": [
+        "agents",
+        "avatars",
+        "rules",
+        "skills"
+      ]
+    },
+    "engineering/dev-pipeline-orchestrator": {
+      "division": "engineering",
+      "slug": "dev-pipeline-orchestrator",
+      "path": "packs/engineering/dev-pipeline-orchestrator.tar.gz",
+      "bytes": 3032,
+      "rawBytes": 2596,
+      "files": 1,
+      "sha256": "c7c70917e17d10745ac23564b0038ff0e8e0845e7e27d1236b7a684fad5d671a",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/edgeone-makers-experts": {
+      "division": "engineering",
+      "slug": "edgeone-makers-experts",
+      "path": "packs/engineering/edgeone-makers-experts.tar.gz",
+      "bytes": 140047,
+      "rawBytes": 426858,
+      "files": 51,
+      "sha256": "7c20f81110567a7764d71c967ae494ca71d6a4ff70aa5564e425f19e113aa464",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "skills"
+      ]
+    },
+    "engineering/empirical-research-team": {
+      "division": "engineering",
+      "slug": "empirical-research-team",
+      "path": "packs/engineering/empirical-research-team.tar.gz",
+      "bytes": 49212,
+      "rawBytes": 120910,
+      "files": 22,
+      "sha256": "3b422d64f4cbc935f7338d4e81fb1d39df7e67b5b53667a4404d96ecdaa876ac",
+      "dirs": [
+        "LICENSE",
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/engineering-assurance-team": {
+      "division": "engineering",
+      "slug": "engineering-assurance-team",
+      "path": "packs/engineering/engineering-assurance-team.tar.gz",
+      "bytes": 4237,
+      "rawBytes": 3804,
+      "files": 1,
+      "sha256": "e47b9fc8695c022f54630500f9f5ec69294c42360d12f08fc83bd811b849b363",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/engineering-workflow-skills": {
+      "division": "engineering",
+      "slug": "engineering-workflow-skills",
+      "path": "packs/engineering/engineering-workflow-skills.tar.gz",
+      "bytes": 104339,
+      "rawBytes": 267681,
+      "files": 28,
+      "sha256": "aa0a170b77156b16429a6f2afa9f893e3ae82aae1c923d25a2ab48a4584d35b1",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/eno": {
+      "division": "engineering",
+      "slug": "eno",
+      "path": "packs/engineering/eno.tar.gz",
+      "bytes": 3292,
+      "rawBytes": 2862,
+      "files": 1,
+      "sha256": "5e4c7fd1e30916ad85750ab62355f910fdf5cc75280c5005f7d82b480ba0f8ce",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/finance-data": {
+      "division": "engineering",
+      "slug": "finance-data",
+      "path": "packs/engineering/finance-data.tar.gz",
+      "bytes": 113883,
+      "rawBytes": 434599,
+      "files": 217,
+      "sha256": "8a4cb86c002b135676ba05f3a929dd042863dbe390e8bbd67d6d0192981e46df",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "engineering/frontend": {
+      "division": "engineering",
+      "slug": "frontend",
+      "path": "packs/engineering/frontend.tar.gz",
+      "bytes": 4214,
+      "rawBytes": 3774,
+      "files": 1,
+      "sha256": "29736987fc7f19ce439f9106ac648348e3ce661337506f96c3596bb07c0d3c2c",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/git-workflow-expert": {
+      "division": "engineering",
+      "slug": "git-workflow-expert",
+      "path": "packs/engineering/git-workflow-expert.tar.gz",
+      "bytes": 2638,
+      "rawBytes": 2206,
+      "files": 1,
+      "sha256": "0174afdf0700999e658e06e210d87f6123e1da20e27c7af744acaa6e89c00ffc",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/gpt-researcher-team": {
+      "division": "engineering",
+      "slug": "gpt-researcher-team",
+      "path": "packs/engineering/gpt-researcher-team.tar.gz",
+      "bytes": 27769,
+      "rawBytes": 68160,
+      "files": 8,
+      "sha256": "628c9c19ee13526e2e2d125a36f6b3c7f6b2d4d148110b52a670ed040b99a15c",
+      "dirs": [
+        "agents",
+        "avatars"
+      ]
+    },
+    "engineering/gstack": {
+      "division": "engineering",
+      "slug": "gstack",
+      "path": "packs/engineering/gstack.tar.gz",
+      "bytes": 54209,
+      "rawBytes": 131005,
+      "files": 20,
+      "sha256": "0aa04eb21fe2e926cc0796527cbfc4d5cec3adfa45a64ed2b4e4d0af0c6934a2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/hsk-devops-expert": {
+      "division": "engineering",
+      "slug": "hsk-devops-expert",
+      "path": "packs/engineering/hsk-devops-expert.tar.gz",
+      "bytes": 2095,
+      "rawBytes": 1670,
+      "files": 1,
+      "sha256": "ab9506e773bac1ccae7da20118ee598a493bf081973d3576e54945758179095d",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/huashu-data-pro": {
+      "division": "engineering",
+      "slug": "huashu-data-pro",
+      "path": "packs/engineering/huashu-data-pro.tar.gz",
+      "bytes": 1877,
+      "rawBytes": 1458,
+      "files": 1,
+      "sha256": "262c5fe41802ee5f2ad15523f444d4e1bc7896b3a5871c4bd3ce3506234946f4",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/jinshuju-expert": {
+      "division": "engineering",
+      "slug": "jinshuju-expert",
+      "path": "packs/engineering/jinshuju-expert.tar.gz",
+      "bytes": 41376,
+      "rawBytes": 110267,
+      "files": 7,
+      "sha256": "dbc0e0fd07017984284e9541c83029a57cf6bb5501f46a2e96892a3fa6f8bbc7",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/jinshuju-form-expert": {
+      "division": "engineering",
+      "slug": "jinshuju-form-expert",
+      "path": "packs/engineering/jinshuju-form-expert.tar.gz",
+      "bytes": 44504,
+      "rawBytes": 119742,
+      "files": 7,
+      "sha256": "49054e07c65d8c0165d4abbad100e69cff31769ff3ffd83c21d6676bf1718575",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/jinshuju-table-expert": {
+      "division": "engineering",
+      "slug": "jinshuju-table-expert",
+      "path": "packs/engineering/jinshuju-table-expert.tar.gz",
+      "bytes": 3847,
+      "rawBytes": 3410,
+      "files": 1,
+      "sha256": "bd3034fe38f4807934668cbc9b7dcfd4dc3ffc995287929154e7b7172706eba0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/kdocs-data-table": {
+      "division": "engineering",
+      "slug": "kdocs-data-table",
+      "path": "packs/engineering/kdocs-data-table.tar.gz",
+      "bytes": 84688,
+      "rawBytes": 359444,
+      "files": 31,
+      "sha256": "c1bbd5a56151f1d99748af25c05f6e0d80c5baab142f38b6bec70c75f418fee9",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/mcp-build-expert": {
+      "division": "engineering",
+      "slug": "mcp-build-expert",
+      "path": "packs/engineering/mcp-build-expert.tar.gz",
+      "bytes": 3021,
+      "rawBytes": 2590,
+      "files": 1,
+      "sha256": "2f3e6a6c8c8808221f6944603e411e2edfc4a9427821d94d4d90baf947d82671",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/mibao-media-archivist": {
+      "division": "engineering",
+      "slug": "mibao-media-archivist",
+      "path": "packs/engineering/mibao-media-archivist.tar.gz",
+      "bytes": 101220,
+      "rawBytes": 449648,
+      "files": 42,
+      "sha256": "7740b754a496d1d605138446c365b828824c7007176eaea42052a4dc88e2de20",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "profiles",
+        "schemas",
+        "skills",
+        "src"
+      ]
+    },
+    "engineering/mobile-application-developer": {
+      "division": "engineering",
+      "slug": "mobile-application-developer",
+      "path": "packs/engineering/mobile-application-developer.tar.gz",
+      "bytes": 45803,
+      "rawBytes": 123080,
+      "files": 14,
+      "sha256": "fd7025e1897379e333a0d60c5f5986618190af66788def132fcd47cb311f2f50",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "engineering/modern-webapp": {
+      "division": "engineering",
+      "slug": "modern-webapp",
+      "path": "packs/engineering/modern-webapp.tar.gz",
+      "bytes": 288788,
+      "rawBytes": 1095568,
+      "files": 122,
+      "sha256": "9564226fdb073930fed4c0d6900264ec0eca09a3427da52fe963981ebf9071cd",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "rules",
+        "skills"
+      ]
+    },
+    "engineering/mvp-dev-expert-team": {
+      "division": "engineering",
+      "slug": "mvp-dev-expert-team",
+      "path": "packs/engineering/mvp-dev-expert-team.tar.gz",
+      "bytes": 188501,
+      "rawBytes": 474390,
+      "files": 40,
+      "sha256": "ae894d637aa6a08a77fb9552f6a74151edd04360d08cb9b04ec3f332173f9736",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "engineering/ncre-expert": {
+      "division": "engineering",
+      "slug": "ncre-expert",
+      "path": "packs/engineering/ncre-expert.tar.gz",
+      "bytes": 5107,
+      "rawBytes": 4672,
+      "files": 1,
+      "sha256": "0fbed5e8d7b79dcdba7d383db6e1ea95f2e21c937ad15f94e332f4fd4f9aa70f",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/nuwa": {
+      "division": "engineering",
+      "slug": "nuwa",
+      "path": "packs/engineering/nuwa.tar.gz",
+      "bytes": 3900,
+      "rawBytes": 3468,
+      "files": 1,
+      "sha256": "cbbdcb7213e65d55c38f00eab8026ceadeeb78c0acc98cb1f31e40feddcdc7c0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/omics-cdgpt-expert": {
+      "division": "engineering",
+      "slug": "omics-cdgpt-expert",
+      "path": "packs/engineering/omics-cdgpt-expert.tar.gz",
+      "bytes": 52162,
+      "rawBytes": 153628,
+      "files": 10,
+      "sha256": "5023eb83033e200585f25b99ccbe6f617e802a412c671c56d3a7c95b4f526018",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/omics-hpc-expert": {
+      "division": "engineering",
+      "slug": "omics-hpc-expert",
+      "path": "packs/engineering/omics-hpc-expert.tar.gz",
+      "bytes": 40239,
+      "rawBytes": 120894,
+      "files": 17,
+      "sha256": "320d59e5b991bef95a11213d3be2465ca904facae0cd95f23f22886d5af771d1",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/omics-scbert-expert": {
+      "division": "engineering",
+      "slug": "omics-scbert-expert",
+      "path": "packs/engineering/omics-scbert-expert.tar.gz",
+      "bytes": 47399,
+      "rawBytes": 141248,
+      "files": 10,
+      "sha256": "3debb21cbae57ae4b3415234f53e3915cddb236b4d2d2faafbb9395d07b6e2bf",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/omics-scprotein-expert": {
+      "division": "engineering",
+      "slug": "omics-scprotein-expert",
+      "path": "packs/engineering/omics-scprotein-expert.tar.gz",
+      "bytes": 51360,
+      "rawBytes": 150574,
+      "files": 10,
+      "sha256": "34f2d9d004a697067ad731fbe582ebb29d42c8441cc6021c4155011cacc204e8",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "engineering/personal-knowledge-architect": {
+      "division": "engineering",
+      "slug": "personal-knowledge-architect",
+      "path": "packs/engineering/personal-knowledge-architect.tar.gz",
+      "bytes": 4181,
+      "rawBytes": 3750,
+      "files": 1,
+      "sha256": "47fc4e2aa6e8de6bdac4587b86f6075a63683f262a185fefb8afa0e115a2227f",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/prompt-engineering-expert": {
+      "division": "engineering",
+      "slug": "prompt-engineering-expert",
+      "path": "packs/engineering/prompt-engineering-expert.tar.gz",
+      "bytes": 3667,
+      "rawBytes": 3232,
+      "files": 1,
+      "sha256": "715af6e662228ea83a4581e9e01d6ef404a450dc071ea6309fe54a95d3f7f1ae",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/python-fullstack-engineer": {
+      "division": "engineering",
+      "slug": "python-fullstack-engineer",
+      "path": "packs/engineering/python-fullstack-engineer.tar.gz",
+      "bytes": 4871,
+      "rawBytes": 4436,
+      "files": 1,
+      "sha256": "86ff2773125a1e9dfe1a442252440434b5ce66040a31e9e421d6f436d7af7dbc",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/rum-fullstack-team": {
+      "division": "engineering",
+      "slug": "rum-fullstack-team",
+      "path": "packs/engineering/rum-fullstack-team.tar.gz",
+      "bytes": 93221,
+      "rawBytes": 278809,
+      "files": 29,
+      "sha256": "6cbc63e7fe222fe309a21c7766098db340f876ef3c3986723ab3ac6fbbe12f92",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills",
+        "tests"
+      ]
+    },
+    "engineering/superpowers-zh": {
+      "division": "engineering",
+      "slug": "superpowers-zh",
+      "path": "packs/engineering/superpowers-zh.tar.gz",
+      "bytes": 2979,
+      "rawBytes": 2548,
+      "files": 1,
+      "sha256": "c5957eb74ab348762b26cc9594a1fc1b101ae22e5cdf2efd8363bd27894de382",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/tencentcloud-api": {
+      "division": "engineering",
+      "slug": "tencentcloud-api",
+      "path": "packs/engineering/tencentcloud-api.tar.gz",
+      "bytes": 3992,
+      "rawBytes": 3558,
+      "files": 1,
+      "sha256": "0283553e709a1c6d9e67f1281a820587d6ba3462a88fd6d29aff303e6fded2ba",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/vocab-craft-expert": {
+      "division": "engineering",
+      "slug": "vocab-craft-expert",
+      "path": "packs/engineering/vocab-craft-expert.tar.gz",
+      "bytes": 4642,
+      "rawBytes": 4206,
+      "files": 1,
+      "sha256": "f983372018ffcc17746945f2f56b0afbbfb40b8175ba6526e126c7b3b754a9aa",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/workspace-builder": {
+      "division": "engineering",
+      "slug": "workspace-builder",
+      "path": "packs/engineering/workspace-builder.tar.gz",
+      "bytes": 4507,
+      "rawBytes": 4068,
+      "files": 1,
+      "sha256": "960599a3856999333087db54c96b6addaafd0b4f443a7079d98c8e9ac36671f3",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "engineering/yunzhi-qa-assistant": {
+      "division": "engineering",
+      "slug": "yunzhi-qa-assistant",
+      "path": "packs/engineering/yunzhi-qa-assistant.tar.gz",
+      "bytes": 35547,
+      "rawBytes": 86702,
+      "files": 8,
+      "sha256": "dbf60436d1269949ab79c0e06d43e0db501e162b571178e1b17750420a6bd54c",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/a-share-analysis": {
+      "division": "finance",
+      "slug": "a-share-analysis",
+      "path": "packs/finance/a-share-analysis.tar.gz",
+      "bytes": 2146579,
+      "rawBytes": 6732849,
+      "files": 27,
+      "sha256": "db678066f45851d93e1054e35d7b5a5f7417d54dad6fdd1c1b96efe1cf7687d7",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/anti-scam-agent": {
+      "division": "finance",
+      "slug": "anti-scam-agent",
+      "path": "packs/finance/anti-scam-agent.tar.gz",
+      "bytes": 75914,
+      "rawBytes": 304230,
+      "files": 17,
+      "sha256": "cae09cdb23b1dd8071c4aae27b108c078f0b23d6526e7a33061c0a2f41f593a9",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/believe-in-light": {
+      "division": "finance",
+      "slug": "believe-in-light",
+      "path": "packs/finance/believe-in-light.tar.gz",
+      "bytes": 34029,
+      "rawBytes": 90975,
+      "files": 15,
+      "sha256": "e31360f216436eeb2614961533fe040d51459f77a6fbd8e4bed2216201b2bc52",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "finance/citongshuopro": {
+      "division": "finance",
+      "slug": "citongshuopro",
+      "path": "packs/finance/citongshuopro.tar.gz",
+      "bytes": 31973,
+      "rawBytes": 83828,
+      "files": 10,
+      "sha256": "0165797e71fe4c789056ff2308b11897b42f3a2108d1fbfc6215606625156421",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/corp-credit-due-diligence": {
+      "division": "finance",
+      "slug": "corp-credit-due-diligence",
+      "path": "packs/finance/corp-credit-due-diligence.tar.gz",
+      "bytes": 2611279,
+      "rawBytes": 3086593,
+      "files": 22,
+      "sha256": "f8a426116ebc551c8b8be24738c00220ca157eb112a6e675cc0cd441322c622e",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/dd-due-diligence-team": {
+      "division": "finance",
+      "slug": "dd-due-diligence-team",
+      "path": "packs/finance/dd-due-diligence-team.tar.gz",
+      "bytes": 340875,
+      "rawBytes": 1101155,
+      "files": 115,
+      "sha256": "6acdec797a4c0ce9af6dc548501c821161faa829c04d716dfecbcea9895fd739",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/earnings-reviewer": {
+      "division": "finance",
+      "slug": "earnings-reviewer",
+      "path": "packs/finance/earnings-reviewer.tar.gz",
+      "bytes": 2281433,
+      "rawBytes": 7840429,
+      "files": 82,
+      "sha256": "31f46acc6bfc2ae7a9c0332b9995ab5eb1c1132735e8c0bc4aac4c00d106180a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/egypt-strategic-advisory": {
+      "division": "finance",
+      "slug": "egypt-strategic-advisory",
+      "path": "packs/finance/egypt-strategic-advisory.tar.gz",
+      "bytes": 328590,
+      "rawBytes": 6772041,
+      "files": 42,
+      "sha256": "b2bacaf7faf8e70b139fdf2d035c175a4cd948a60fa57d964c24a4bb5e17f3b2",
+      "dirs": [
+        "Databases",
+        "Reference_Texts",
+        "agents",
+        "avatars",
+        "scripts",
+        "skills"
+      ]
+    },
+    "finance/equity-research": {
+      "division": "finance",
+      "slug": "equity-research",
+      "path": "packs/finance/equity-research.tar.gz",
+      "bytes": 108525,
+      "rawBytes": 312329,
+      "files": 32,
+      "sha256": "269c49d702dbd1d466ba57c9f1d95cd73bb83785feff32bfcac7372949e530f6",
+      "dirs": [
+        "agents",
+        "avatars",
+        "rules",
+        "skills"
+      ]
+    },
+    "finance/fin-research-expert": {
+      "division": "finance",
+      "slug": "fin-research-expert",
+      "path": "packs/finance/fin-research-expert.tar.gz",
+      "bytes": 158377,
+      "rawBytes": 427829,
+      "files": 60,
+      "sha256": "69992f559b58c985c2512c38029e6d0bed457ee20e06c345dbc351458dc748f0",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/finance": {
+      "division": "finance",
+      "slug": "finance",
+      "path": "packs/finance/finance.tar.gz",
+      "bytes": 34374,
+      "rawBytes": 100573,
+      "files": 9,
+      "sha256": "b315365196dc9cd0ba3db240bb53f7f4fa2e75001e613a065ca7e901dc6b7087",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "finance/financial-analysis": {
+      "division": "finance",
+      "slug": "financial-analysis",
+      "path": "packs/finance/financial-analysis.tar.gz",
+      "bytes": 84441,
+      "rawBytes": 240217,
+      "files": 28,
+      "sha256": "3438244bc35106fd440bdc2d8b88717512c58c1a092edf7907a59f30f926e811",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "finance/financial-tracker": {
+      "division": "finance",
+      "slug": "financial-tracker",
+      "path": "packs/finance/financial-tracker.tar.gz",
+      "bytes": 33050,
+      "rawBytes": 93475,
+      "files": 17,
+      "sha256": "7aab950cec15aaa7a8079919c9d9a205c08ffb7412db1c7411e089aee793894a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/fund-research-analyst": {
+      "division": "finance",
+      "slug": "fund-research-analyst",
+      "path": "packs/finance/fund-research-analyst.tar.gz",
+      "bytes": 4262,
+      "rawBytes": 3826,
+      "files": 1,
+      "sha256": "fdd8f17f7faccd34ac02073a00f3286583a03fc7f8e04649a81d8a8830d0e4c3",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "finance/gl-reconciler": {
+      "division": "finance",
+      "slug": "gl-reconciler",
+      "path": "packs/finance/gl-reconciler.tar.gz",
+      "bytes": 140399,
+      "rawBytes": 1110896,
+      "files": 59,
+      "sha256": "125fd7b8f5e5eb9ffcb04c0ad80a460027df622a800192530ddda0e5f1b0766d",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/industry-sre-team": {
+      "division": "finance",
+      "slug": "industry-sre-team",
+      "path": "packs/finance/industry-sre-team.tar.gz",
+      "bytes": 93978,
+      "rawBytes": 304787,
+      "files": 27,
+      "sha256": "2efce81d2641f645d2ef6e0ff5fa4545b57e91409e1fc0b713d147de54b1adc6",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/investment-banking": {
+      "division": "finance",
+      "slug": "investment-banking",
+      "path": "packs/finance/investment-banking.tar.gz",
+      "bytes": 73570,
+      "rawBytes": 179613,
+      "files": 28,
+      "sha256": "fce75f9abc9e792e8eb0f6b838a28c3c60fa9d0b0f6f8ec4bebb5ca19b42401f",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "finance/investment-masters-team": {
+      "division": "finance",
+      "slug": "investment-masters-team",
+      "path": "packs/finance/investment-masters-team.tar.gz",
+      "bytes": 39129,
+      "rawBytes": 99660,
+      "files": 27,
+      "sha256": "c76246dab305684b26ab4131812c9cf3880a313e93919ba844dd0ddaee923d80",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/kyc-screener": {
+      "division": "finance",
+      "slug": "kyc-screener",
+      "path": "packs/finance/kyc-screener.tar.gz",
+      "bytes": 137187,
+      "rawBytes": 1103715,
+      "files": 58,
+      "sha256": "24726a1a0c888c8a3d06f50f2020f60da17a17335b883b4f05a157b8f584c407",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/mai-deal-advisor": {
+      "division": "finance",
+      "slug": "mai-deal-advisor",
+      "path": "packs/finance/mai-deal-advisor.tar.gz",
+      "bytes": 118468,
+      "rawBytes": 183686,
+      "files": 21,
+      "sha256": "3f2136b5215cb2bf2ab9782fcc8e33c1deac8cb6109e3f853cd2ab90a4182091",
+      "dirs": [
+        "agents",
+        "assets",
+        "avatars",
+        "bin",
+        "references",
+        "rules"
+      ]
+    },
+    "finance/market-researcher": {
+      "division": "finance",
+      "slug": "market-researcher",
+      "path": "packs/finance/market-researcher.tar.gz",
+      "bytes": 2289819,
+      "rawBytes": 7864104,
+      "files": 85,
+      "sha256": "1ac8554f478c964218137be4c857bf5ddb96affa5031ac8ccb71838c51aafce2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/meeting-prep-agent": {
+      "division": "finance",
+      "slug": "meeting-prep-agent",
+      "path": "packs/finance/meeting-prep-agent.tar.gz",
+      "bytes": 150879,
+      "rawBytes": 1146786,
+      "files": 64,
+      "sha256": "e31ec52e0abab4eb107ce935cc4cfbbce32d8c307dc6421d30aec7825e250a98",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/mentougou-business-guide": {
+      "division": "finance",
+      "slug": "mentougou-business-guide",
+      "path": "packs/finance/mentougou-business-guide.tar.gz",
+      "bytes": 76346,
+      "rawBytes": 190332,
+      "files": 36,
+      "sha256": "675c29f068cb29ef1a4e405fc0e0e0c949287843260afb1761b12f9617e40144",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/model-builder": {
+      "division": "finance",
+      "slug": "model-builder",
+      "path": "packs/finance/model-builder.tar.gz",
+      "bytes": 2313317,
+      "rawBytes": 7929746,
+      "files": 85,
+      "sha256": "3b7f1a153f058005cdfc354d638f9fa24e883777723113c55336851722e4f7a6",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/month-end-closer": {
+      "division": "finance",
+      "slug": "month-end-closer",
+      "path": "packs/finance/month-end-closer.tar.gz",
+      "bytes": 141042,
+      "rawBytes": 1110911,
+      "files": 60,
+      "sha256": "4804d4fecd8443c1837101f3ec04dccd314570c7b75d221c9a057d1ffcacb5ce",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/new-share-expert": {
+      "division": "finance",
+      "slug": "new-share-expert",
+      "path": "packs/finance/new-share-expert.tar.gz",
+      "bytes": 26131,
+      "rawBytes": 65574,
+      "files": 11,
+      "sha256": "4e3d872e9ea643cdeeea2ad327a2adb736b086958b425fee5cc3d7215268f01c",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/pitch-agent": {
+      "division": "finance",
+      "slug": "pitch-agent",
+      "path": "packs/finance/pitch-agent.tar.gz",
+      "bytes": 2482797,
+      "rawBytes": 9145151,
+      "files": 155,
+      "sha256": "3530791deb5c34d0c08f0ebd1774caf77a681f6cad3e28145a15eada6bcacd63",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/roadshow-research-team": {
+      "division": "finance",
+      "slug": "roadshow-research-team",
+      "path": "packs/finance/roadshow-research-team.tar.gz",
+      "bytes": 78458,
+      "rawBytes": 198562,
+      "files": 17,
+      "sha256": "9980c07b6099ffa9139a27d2aef1fa1d1ab07178a6fca37bc6eb5a0cc581f27b",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/sg-finance-tax": {
+      "division": "finance",
+      "slug": "sg-finance-tax",
+      "path": "packs/finance/sg-finance-tax.tar.gz",
+      "bytes": 85619,
+      "rawBytes": 204406,
+      "files": 2,
+      "sha256": "3fe4be4d4dce57eac996e2fec77d219ef31e10e7d647e885b3b3ff027f7ebb7d",
+      "dirs": [
+        "agents",
+        "avatars"
+      ]
+    },
+    "finance/smart-stock-analyst": {
+      "division": "finance",
+      "slug": "smart-stock-analyst",
+      "path": "packs/finance/smart-stock-analyst.tar.gz",
+      "bytes": 31652,
+      "rawBytes": 69628,
+      "files": 9,
+      "sha256": "82d6814f4aeb3bf9012daed32cf64adf0575ca997eb2eac4d9e11af6faec00b2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/smb-finance": {
+      "division": "finance",
+      "slug": "smb-finance",
+      "path": "packs/finance/smb-finance.tar.gz",
+      "bytes": 452,
+      "rawBytes": 114,
+      "files": 1,
+      "sha256": "6c7d31febecfe508f1ba8b5d84e915f09ca706f04f7074085ba4aee4895636fd",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "finance/south-africa-strategy-advisor": {
+      "division": "finance",
+      "slug": "south-africa-strategy-advisor",
+      "path": "packs/finance/south-africa-strategy-advisor.tar.gz",
+      "bytes": 85815,
+      "rawBytes": 176853,
+      "files": 31,
+      "sha256": "a2247414732882638fdf931dfc6f3b6ccf5cb150ca94c572bd51b9726197d8fc",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/statement-auditor": {
+      "division": "finance",
+      "slug": "statement-auditor",
+      "path": "packs/finance/statement-auditor.tar.gz",
+      "bytes": 138776,
+      "rawBytes": 1106838,
+      "files": 58,
+      "sha256": "358fe931fc73ba5967efa5931ca76fb1a1c4fc2414111853cc51ec95c25eca2a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/strategy-backtest-expert": {
+      "division": "finance",
+      "slug": "strategy-backtest-expert",
+      "path": "packs/finance/strategy-backtest-expert.tar.gz",
+      "bytes": 2193463,
+      "rawBytes": 6204261,
+      "files": 32,
+      "sha256": "2fa686a5553ee2d6ddcc8297c9bec1670d4e7bded15c250141a2d526e2112d14",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/tdx-stock-diagnostician": {
+      "division": "finance",
+      "slug": "tdx-stock-diagnostician",
+      "path": "packs/finance/tdx-stock-diagnostician.tar.gz",
+      "bytes": 5158,
+      "rawBytes": 4718,
+      "files": 1,
+      "sha256": "76360599be75e4b6cad2e09803b22a698fe3bb040c6cc95137c7e4e3c2eb7986",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "finance/tdx-stock-hunter": {
+      "division": "finance",
+      "slug": "tdx-stock-hunter",
+      "path": "packs/finance/tdx-stock-hunter.tar.gz",
+      "bytes": 5155,
+      "rawBytes": 4718,
+      "files": 1,
+      "sha256": "f0f1c647c6b5f66f35aa2e6b29dbbf0172b6765a42f7c90fa5d28e51dff91efb",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "finance/tdx-value-assessor": {
+      "division": "finance",
+      "slug": "tdx-value-assessor",
+      "path": "packs/finance/tdx-value-assessor.tar.gz",
+      "bytes": 5153,
+      "rawBytes": 4718,
+      "files": 1,
+      "sha256": "c56b3e1a57231041b4e793b05256ea087c492178a4803a89e144f0be4200d98e",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "finance/terminal-veteran": {
+      "division": "finance",
+      "slug": "terminal-veteran",
+      "path": "packs/finance/terminal-veteran.tar.gz",
+      "bytes": 72165,
+      "rawBytes": 189273,
+      "files": 25,
+      "sha256": "9591209f17e1c786ad4fe1806cc48261594f17ae33f83bcec1b0bf9ef172859b",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "scripts",
+        "skills"
+      ]
+    },
+    "finance/trading-agent": {
+      "division": "finance",
+      "slug": "trading-agent",
+      "path": "packs/finance/trading-agent.tar.gz",
+      "bytes": 21928,
+      "rawBytes": 61543,
+      "files": 15,
+      "sha256": "4d1f60ed3f1d032a7ec8e42026583f4ffd5c25fce2b48f48f2e2ea9076b686e1",
+      "dirs": [
+        "agents",
+        "rules",
+        "skills"
+      ]
+    },
+    "finance/uae-public-affairs": {
+      "division": "finance",
+      "slug": "uae-public-affairs",
+      "path": "packs/finance/uae-public-affairs.tar.gz",
+      "bytes": 101258,
+      "rawBytes": 222833,
+      "files": 49,
+      "sha256": "24ef666eacf6fdea9ac974ba36b96392eb630ee9fa5fea5f6a662ecd5b5a01c2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "finance/uae-strategic-advisor": {
+      "division": "finance",
+      "slug": "uae-strategic-advisor",
+      "path": "packs/finance/uae-strategic-advisor.tar.gz",
+      "bytes": 3893,
+      "rawBytes": 3462,
+      "files": 1,
+      "sha256": "003450a0f84619346053fdf9e2df7cd449aaed6bc69ef5ab96ecd119d2734330",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "finance/valuation-reviewer": {
+      "division": "finance",
+      "slug": "valuation-reviewer",
+      "path": "packs/finance/valuation-reviewer.tar.gz",
+      "bytes": 2262705,
+      "rawBytes": 7791260,
+      "files": 78,
+      "sha256": "6b49c220c094c17abc8124edb43c67eb5ec0b3de0e1802bf96d0a9498e55537e",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "finance/yahoo-finance-cli": {
+      "division": "finance",
+      "slug": "yahoo-finance-cli",
+      "path": "packs/finance/yahoo-finance-cli.tar.gz",
+      "bytes": 3585,
+      "rawBytes": 3152,
+      "files": 1,
+      "sha256": "29e67e6fa95f640b6bf5bbb8d126509400f3a75d0463443e6e0ea92ae3e67f7c",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "game-development/game-development-studio": {
+      "division": "game-development",
+      "slug": "game-development-studio",
+      "path": "packs/game-development/game-development-studio.tar.gz",
+      "bytes": 3109,
+      "rawBytes": 2672,
+      "files": 1,
+      "sha256": "ae423e8ce12a34166b5d323ff2f94376dc7648688a6113b460ef1f77d8c92d26",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "game-development/godot-game-script-engineer": {
+      "division": "game-development",
+      "slug": "godot-game-script-engineer",
+      "path": "packs/game-development/godot-game-script-engineer.tar.gz",
+      "bytes": 3279,
+      "rawBytes": 2846,
+      "files": 1,
+      "sha256": "cf40200fa4733be14145e4b06f1519479d85c1171d39975787671d3e83dbd277",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "gis/egypt-marketing": {
+      "division": "gis",
+      "slug": "egypt-marketing",
+      "path": "packs/gis/egypt-marketing.tar.gz",
+      "bytes": 94567,
+      "rawBytes": 756210,
+      "files": 26,
+      "sha256": "cb60b075e3a3148956831b539a07305738e6aa39a6f63b89837f00594aab456b",
+      "dirs": [
+        "Databases",
+        "Reference_Texts",
+        "agents",
+        "avatars",
+        "scripts",
+        "skills"
+      ]
+    },
+    "gis/exam-preparation-planner": {
+      "division": "gis",
+      "slug": "exam-preparation-planner",
+      "path": "packs/gis/exam-preparation-planner.tar.gz",
+      "bytes": 4678,
+      "rawBytes": 4242,
+      "files": 1,
+      "sha256": "5c04b08dd13534595d9a4948795e356363c0966997b13eb35863c7a7de34b3e7",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "gis/lazy-travel-planner": {
+      "division": "gis",
+      "slug": "lazy-travel-planner",
+      "path": "packs/gis/lazy-travel-planner.tar.gz",
+      "bytes": 98717,
+      "rawBytes": 260607,
+      "files": 55,
+      "sha256": "f54294c1bcd75f3958e7e9bb74467977b0ea40c88e9b792293a6d4b7550719d4",
+      "dirs": [
+        "agents",
+        "avatars",
+        "data",
+        "references",
+        "shared",
+        "skills"
+      ]
+    },
+    "healthcare/patient-education-content-review-word-assistant": {
+      "division": "healthcare",
+      "slug": "patient-education-content-review-word-assistant",
+      "path": "packs/healthcare/patient-education-content-review-word-assistant.tar.gz",
+      "bytes": 4500,
+      "rawBytes": 4062,
+      "files": 1,
+      "sha256": "a29ee59a56df19c5e23cef7a0406ab75bc169b5cda7e53786b2dfac169f4cb1d",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "healthcare/tianyu-marketing-guardian": {
+      "division": "healthcare",
+      "slug": "tianyu-marketing-guardian",
+      "path": "packs/healthcare/tianyu-marketing-guardian.tar.gz",
+      "bytes": 45169,
+      "rawBytes": 112469,
+      "files": 6,
+      "sha256": "3d8d8af557c14fe3132249f1451e48e9c510d3c070c78305607611d41cea1efc",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "hr/customer-support-expert": {
+      "division": "hr",
+      "slug": "customer-support-expert",
+      "path": "packs/hr/customer-support-expert.tar.gz",
+      "bytes": 2985,
+      "rawBytes": 2552,
+      "files": 1,
+      "sha256": "7e9608cde04ecf898b53b0b3309bb2c53ee7c753d475cf2e5d1c9c8fb5049a0b",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "hr/family-education-coach": {
+      "division": "hr",
+      "slug": "family-education-coach",
+      "path": "packs/hr/family-education-coach.tar.gz",
+      "bytes": 2724,
+      "rawBytes": 2302,
+      "files": 1,
+      "sha256": "3f475e4dbb05baf50c5649ff141e0f1f4eb7a4e758627425753cffcd87bcdc46",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "hr/fbsir-beike-yi": {
+      "division": "hr",
+      "slug": "fbsir-beike-yi",
+      "path": "packs/hr/fbsir-beike-yi.tar.gz",
+      "bytes": 26491,
+      "rawBytes": 51210,
+      "files": 26,
+      "sha256": "4d8ba9144d08737f41efb933939e4abe6440b0fef1d52d2402672e8f3afe066f",
+      "dirs": [
+        "agents",
+        "avatars",
+        "contracts",
+        "examples",
+        "references",
+        "skills"
+      ]
+    },
+    "hr/hr-operations-team": {
+      "division": "hr",
+      "slug": "hr-operations-team",
+      "path": "packs/hr/hr-operations-team.tar.gz",
+      "bytes": 4089,
+      "rawBytes": 3650,
+      "files": 1,
+      "sha256": "a9ae775836ab88a6ca42bd7fbb6aec752f921d88a3d022d9588e864a908d6fa1",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "hr/ihr-ai-interviewer": {
+      "division": "hr",
+      "slug": "ihr-ai-interviewer",
+      "path": "packs/hr/ihr-ai-interviewer.tar.gz",
+      "bytes": 62120,
+      "rawBytes": 174641,
+      "files": 23,
+      "sha256": "abc67c6cde9048e36d9839fda93ab0dfa62296399f1a488b11f25cb2fac92018",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "hr/ihr-conference": {
+      "division": "hr",
+      "slug": "ihr-conference",
+      "path": "packs/hr/ihr-conference.tar.gz",
+      "bytes": 62887,
+      "rawBytes": 173151,
+      "files": 23,
+      "sha256": "7cef99cdc7287276154d67201fe9503cc5db631dd113877394322a1e715e0490",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "hr/interview-simulator": {
+      "division": "hr",
+      "slug": "interview-simulator",
+      "path": "packs/hr/interview-simulator.tar.gz",
+      "bytes": 3283,
+      "rawBytes": 2854,
+      "files": 1,
+      "sha256": "1a44bfcd79628f247db56f74bbcf5cca78349ca2e7bb8a2f7ffab0d2c7c9fa3b",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "hr/qingflow-hr-expert": {
+      "division": "hr",
+      "slug": "qingflow-hr-expert",
+      "path": "packs/hr/qingflow-hr-expert.tar.gz",
+      "bytes": 2311,
+      "rawBytes": 1888,
+      "files": 1,
+      "sha256": "33c828184ec75e1879034888fc3730226279b8ede8c4485ae44f54ab02143380",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "hr/south-africa-hr-admin": {
+      "division": "hr",
+      "slug": "south-africa-hr-admin",
+      "path": "packs/hr/south-africa-hr-admin.tar.gz",
+      "bytes": 4941167,
+      "rawBytes": 7850454,
+      "files": 148,
+      "sha256": "3f79cc3571de148e48357eb6debdce7ad016f1f59d83fc12b0735814d992be8a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "hr/xiaot": {
+      "division": "hr",
+      "slug": "xiaot",
+      "path": "packs/hr/xiaot.tar.gz",
+      "bytes": 4926,
+      "rawBytes": 4508,
+      "files": 1,
+      "sha256": "d8ec4135b3c9aa4db8973dbe56399573fe4b554f01e5126c80aac13badeedfe5",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "legal/brazil-company-query": {
+      "division": "legal",
+      "slug": "brazil-company-query",
+      "path": "packs/legal/brazil-company-query.tar.gz",
+      "bytes": 990344,
+      "rawBytes": 3368760,
+      "files": 10,
+      "sha256": "4090bb1395add502b9f156b3e4b7c696561bf59170104e49c85a5e735fa40ae5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "legal/brazil-legal": {
+      "division": "legal",
+      "slug": "brazil-legal",
+      "path": "packs/legal/brazil-legal.tar.gz",
+      "bytes": 3072,
+      "rawBytes": 2636,
+      "files": 1,
+      "sha256": "bd2da50a1ba1e230223e2bc9de621a972421de8ea7ad50a8d2f2d6061136a40f",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "legal/brazil-rfb-expert": {
+      "division": "legal",
+      "slug": "brazil-rfb-expert",
+      "path": "packs/legal/brazil-rfb-expert.tar.gz",
+      "bytes": 1015155,
+      "rawBytes": 3703194,
+      "files": 12,
+      "sha256": "efd7254a3b8c1a737cd2e0fc064bf01e518e272ddf52d6e2a18e338dae036664",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "legal/charity-doc-finance-expert": {
+      "division": "legal",
+      "slug": "charity-doc-finance-expert",
+      "path": "packs/legal/charity-doc-finance-expert.tar.gz",
+      "bytes": 164473,
+      "rawBytes": 357927,
+      "files": 43,
+      "sha256": "27a5cdf6b793129c30e3862e7049beb231ae48fd3c09b7e8667f6b057dfab6b3",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "legal/indonesia-bd-expert": {
+      "division": "legal",
+      "slug": "indonesia-bd-expert",
+      "path": "packs/legal/indonesia-bd-expert.tar.gz",
+      "bytes": 1485837,
+      "rawBytes": 1611844,
+      "files": 3,
+      "sha256": "73f85e38c29ff6225b116fdff29607d38e15bd73be45be54f70eb13ebae34f6d",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "legal/indonesia-digital-law-expert": {
+      "division": "legal",
+      "slug": "indonesia-digital-law-expert",
+      "path": "packs/legal/indonesia-digital-law-expert.tar.gz",
+      "bytes": 14416259,
+      "rawBytes": 15541894,
+      "files": 6,
+      "sha256": "05076e6353c1fa46170744443a8af7de9bb28f7c2187431b170cc2db94acbfd9",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "legal/indonesia-pa-expert": {
+      "division": "legal",
+      "slug": "indonesia-pa-expert",
+      "path": "packs/legal/indonesia-pa-expert.tar.gz",
+      "bytes": 3908,
+      "rawBytes": 3470,
+      "files": 1,
+      "sha256": "2d281f1c408f8fbe88b506b7c82a13ea8aa70804f33c18b612aafca99398ec59",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "legal/inspection-expert": {
+      "division": "legal",
+      "slug": "inspection-expert",
+      "path": "packs/legal/inspection-expert.tar.gz",
+      "bytes": 3120,
+      "rawBytes": 2692,
+      "files": 1,
+      "sha256": "482de6c8f2e7753981f946bd236f4319ef5af601d20aa34bd3929e894fc02a83",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "legal/malaysia-finance-tax": {
+      "division": "legal",
+      "slug": "malaysia-finance-tax",
+      "path": "packs/legal/malaysia-finance-tax.tar.gz",
+      "bytes": 15929542,
+      "rawBytes": 41659460,
+      "files": 130,
+      "sha256": "7d381df838e905da71eedc511f99724bd0cbf3c9481ff92abf8dab1f09077728",
+      "dirs": [
+        "CSV_Datasets",
+        "Databases",
+        "Reference_Texts",
+        "agents",
+        "avatars",
+        "scripts",
+        "skills"
+      ]
+    },
+    "legal/malaysia-hr-admin": {
+      "division": "legal",
+      "slug": "malaysia-hr-admin",
+      "path": "packs/legal/malaysia-hr-admin.tar.gz",
+      "bytes": 41495810,
+      "rawBytes": 70751350,
+      "files": 79,
+      "sha256": "600bc72d6e5892f990f82efd306c60643bd62033a94345c58f13cbb8389ae57d",
+      "dirs": [
+        "Databases",
+        "Reference_Texts",
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "legal/malaysia-legal": {
+      "division": "legal",
+      "slug": "malaysia-legal",
+      "path": "packs/legal/malaysia-legal.tar.gz",
+      "bytes": 18557962,
+      "rawBytes": 116375828,
+      "files": 72,
+      "sha256": "003b14bafe7b63948e38969911425a3e6a9f066bd46db92a0dc90029a5428879",
+      "dirs": [
+        "CSV_Datasets",
+        "Databases",
+        "Reference_Texts",
+        "agents",
+        "avatars",
+        "scripts",
+        "skills"
+      ]
+    },
+    "legal/sg-hr-admin-expert": {
+      "division": "legal",
+      "slug": "sg-hr-admin-expert",
+      "path": "packs/legal/sg-hr-admin-expert.tar.gz",
+      "bytes": 101712,
+      "rawBytes": 252120,
+      "files": 26,
+      "sha256": "5929b5766f8e9b970025ad07fd1abefb6865e14e6972e98ea42505052fc29f14",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "legal/smb-team": {
+      "division": "legal",
+      "slug": "smb-team",
+      "path": "packs/legal/smb-team.tar.gz",
+      "bytes": 2582,
+      "rawBytes": 2150,
+      "files": 1,
+      "sha256": "38da7b0b1ad71b5627c74b5154c5c77e124033cc4a687ac68756d4c4c984813a",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "legal/thai-marketing-creative": {
+      "division": "legal",
+      "slug": "thai-marketing-creative",
+      "path": "packs/legal/thai-marketing-creative.tar.gz",
+      "bytes": 30098,
+      "rawBytes": 74196,
+      "files": 5,
+      "sha256": "c59da6f456f996f1d792f0b17fb70f08d70366fd1a0a33437f846d9b2b6e0feb",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "legal/thailand-hr-admin": {
+      "division": "legal",
+      "slug": "thailand-hr-admin",
+      "path": "packs/legal/thailand-hr-admin.tar.gz",
+      "bytes": 3784,
+      "rawBytes": 3358,
+      "files": 1,
+      "sha256": "03966989590a217c46501fe0a93c286f86f358f672825968765d132900b74cd0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/ad-tracking-expert": {
+      "division": "marketing",
+      "slug": "ad-tracking-expert",
+      "path": "packs/marketing/ad-tracking-expert.tar.gz",
+      "bytes": 3210,
+      "rawBytes": 2774,
+      "files": 1,
+      "sha256": "eedc510d4c14c6d4b0148408c07019557c26003de47bb0019c0fa99980769c6e",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/ai-humanizer": {
+      "division": "marketing",
+      "slug": "ai-humanizer",
+      "path": "packs/marketing/ai-humanizer.tar.gz",
+      "bytes": 3399,
+      "rawBytes": 2966,
+      "files": 1,
+      "sha256": "7108e45cfa089c1b63fa5d413a5ad8336f7e0729789d26d3cc02516d82b327d4",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/ai-shifu": {
+      "division": "marketing",
+      "slug": "ai-shifu",
+      "path": "packs/marketing/ai-shifu.tar.gz",
+      "bytes": 124071,
+      "rawBytes": 408680,
+      "files": 41,
+      "sha256": "1a658f1da7b5ecd64d35b08127dbf793ab5f8044eae22c082680827fcb1baae2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/ai-video-script": {
+      "division": "marketing",
+      "slug": "ai-video-script",
+      "path": "packs/marketing/ai-video-script.tar.gz",
+      "bytes": 3758,
+      "rawBytes": 3326,
+      "files": 1,
+      "sha256": "6ded64ab0c59e8797499980ef6aa5603cbab1f5088e34abb4ddaafaa6b6f9e76",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/auto-consultant": {
+      "division": "marketing",
+      "slug": "auto-consultant",
+      "path": "packs/marketing/auto-consultant.tar.gz",
+      "bytes": 41386,
+      "rawBytes": 91619,
+      "files": 10,
+      "sha256": "1b88a25983e73ca5d5ef77597fbc17f72085704a5a4f68066e6f8f5b34cdb699",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/book-co-creator": {
+      "division": "marketing",
+      "slug": "book-co-creator",
+      "path": "packs/marketing/book-co-creator.tar.gz",
+      "bytes": 1177939,
+      "rawBytes": 3769505,
+      "files": 491,
+      "sha256": "aa5b25b372e414fd7a973c5d185437dd39cccb3e162f53411e6be65f56f74b99",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "marketing/chatcut-video-editor": {
+      "division": "marketing",
+      "slug": "chatcut-video-editor",
+      "path": "packs/marketing/chatcut-video-editor.tar.gz",
+      "bytes": 94138,
+      "rawBytes": 274246,
+      "files": 29,
+      "sha256": "7c3f5c516f2f074b98baf6aa251d19e1f6b0ada3e1a00d174e357eb33bf42674",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "skills"
+      ]
+    },
+    "marketing/content-creation-expert-prod": {
+      "division": "marketing",
+      "slug": "content-creation-expert-prod",
+      "path": "packs/marketing/content-creation-expert-prod.tar.gz",
+      "bytes": 92787,
+      "rawBytes": 246685,
+      "files": 23,
+      "sha256": "c914e4a2bcf669e5f71731450e1a79acd5c56b51e077e0826e1682e35865eb1e",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "marketing/content-distribution-team": {
+      "division": "marketing",
+      "slug": "content-distribution-team",
+      "path": "packs/marketing/content-distribution-team.tar.gz",
+      "bytes": 72671,
+      "rawBytes": 177803,
+      "files": 28,
+      "sha256": "d1963b2c4c7907448a983c6ac9e4abf6221b4f00c3ae30dd7c6bce0995c3522a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "marketing/content-monetization-team": {
+      "division": "marketing",
+      "slug": "content-monetization-team",
+      "path": "packs/marketing/content-monetization-team.tar.gz",
+      "bytes": 36620,
+      "rawBytes": 77458,
+      "files": 11,
+      "sha256": "2127f0ba3e4adff6edf0a419000004d0ba288ef03368190cba94ac80a55c6027",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/content-writer": {
+      "division": "marketing",
+      "slug": "content-writer",
+      "path": "packs/marketing/content-writer.tar.gz",
+      "bytes": 3271,
+      "rawBytes": 2836,
+      "files": 1,
+      "sha256": "165e06bbbe7c9c0895e87abf74d58457ec32e15f4d8ac074bcce6b702d18e380",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/executing-marketing-campaigns": {
+      "division": "marketing",
+      "slug": "executing-marketing-campaigns",
+      "path": "packs/marketing/executing-marketing-campaigns.tar.gz",
+      "bytes": 34839,
+      "rawBytes": 90832,
+      "files": 11,
+      "sha256": "d0ceb85b0d4119470e77d20ac3eb9db2a42df4e94c039d4081ac376a3b566ee8",
+      "dirs": [
+        "agents",
+        "skills"
+      ]
+    },
+    "marketing/fbsir-mom-dialogue-expert": {
+      "division": "marketing",
+      "slug": "fbsir-mom-dialogue-expert",
+      "path": "packs/marketing/fbsir-mom-dialogue-expert.tar.gz",
+      "bytes": 65601,
+      "rawBytes": 215477,
+      "files": 111,
+      "sha256": "96c9198338121c72b03869991cf612b84e53e2a4edf56423a667fed33a36b3c0",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/frontend-slides": {
+      "division": "marketing",
+      "slug": "frontend-slides",
+      "path": "packs/marketing/frontend-slides.tar.gz",
+      "bytes": 3795,
+      "rawBytes": 3356,
+      "files": 1,
+      "sha256": "ffaef1a938bd1e4865876c8af0a69c8363a3adb34fd98f00ec1ac568fc8164ee",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/geo-diagnosis-expert": {
+      "division": "marketing",
+      "slug": "geo-diagnosis-expert",
+      "path": "packs/marketing/geo-diagnosis-expert.tar.gz",
+      "bytes": 53007,
+      "rawBytes": 184252,
+      "files": 15,
+      "sha256": "33f9656941b1c7082f6eb8478ef22dbf1768992e1cbbc48c56d2bad6a3fa4607",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/humanize-ppt-team": {
+      "division": "marketing",
+      "slug": "humanize-ppt-team",
+      "path": "packs/marketing/humanize-ppt-team.tar.gz",
+      "bytes": 10003953,
+      "rawBytes": 11358165,
+      "files": 332,
+      "sha256": "6e42ef94b279b2f8db871404734adb935317a0dc39003e177ca1036be748ea3a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "rules",
+        "skills"
+      ]
+    },
+    "marketing/jiayi-ads-analytics-expert": {
+      "division": "marketing",
+      "slug": "jiayi-ads-analytics-expert",
+      "path": "packs/marketing/jiayi-ads-analytics-expert.tar.gz",
+      "bytes": 159671,
+      "rawBytes": 860766,
+      "files": 960,
+      "sha256": "dd77113579a612e9b465e4bc26971ead0155bd3f4fdc9e73326552689db61a93",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/kdocs-doc-butler": {
+      "division": "marketing",
+      "slug": "kdocs-doc-butler",
+      "path": "packs/marketing/kdocs-doc-butler.tar.gz",
+      "bytes": 59059,
+      "rawBytes": 228972,
+      "files": 27,
+      "sha256": "cc932852433b396d7835dfdced17074941c9b7920fd498119a9dbf7607dab13b",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/kdocs-knowledge-collector": {
+      "division": "marketing",
+      "slug": "kdocs-knowledge-collector",
+      "path": "packs/marketing/kdocs-knowledge-collector.tar.gz",
+      "bytes": 39285,
+      "rawBytes": 117131,
+      "files": 27,
+      "sha256": "72b9cf69510022fabf10979aad32358e75051cd5d50a1f1e5cf78414f0964adb",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/kdocs-pdf-toolbox": {
+      "division": "marketing",
+      "slug": "kdocs-pdf-toolbox",
+      "path": "packs/marketing/kdocs-pdf-toolbox.tar.gz",
+      "bytes": 20182,
+      "rawBytes": 55077,
+      "files": 10,
+      "sha256": "43588a2ee77e8f1a6eb18f4aee80dcb95269810a20183657dfd05932be1ff394",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/kdocs-ppt-creator": {
+      "division": "marketing",
+      "slug": "kdocs-ppt-creator",
+      "path": "packs/marketing/kdocs-ppt-creator.tar.gz",
+      "bytes": 19725,
+      "rawBytes": 53885,
+      "files": 15,
+      "sha256": "f319ed132b45c6a87c7b8426e98e889a635563e78cd173154e94a8c4d406b115",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/kidd-content-expert": {
+      "division": "marketing",
+      "slug": "kidd-content-expert",
+      "path": "packs/marketing/kidd-content-expert.tar.gz",
+      "bytes": 3858,
+      "rawBytes": 3426,
+      "files": 1,
+      "sha256": "d839a97f3ea56a820e7974e4e2966b901cf5d9911856862274cfaf0c44e9633b",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/livestream-ecommerce-coach": {
+      "division": "marketing",
+      "slug": "livestream-ecommerce-coach",
+      "path": "packs/marketing/livestream-ecommerce-coach.tar.gz",
+      "bytes": 140156,
+      "rawBytes": 375314,
+      "files": 29,
+      "sha256": "707f5ce229aa4e2f26638f9474668409dc15487be16c4d59ddfa618861141ca1",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "marketing/long-manuscript-expert": {
+      "division": "marketing",
+      "slug": "long-manuscript-expert",
+      "path": "packs/marketing/long-manuscript-expert.tar.gz",
+      "bytes": 138533,
+      "rawBytes": 1569529,
+      "files": 150,
+      "sha256": "69a055d511e3decb803ee9d3862d328b378c93d84cfc5014addcc74ac316631f",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/market-analysis-cn": {
+      "division": "marketing",
+      "slug": "market-analysis-cn",
+      "path": "packs/marketing/market-analysis-cn.tar.gz",
+      "bytes": 3421,
+      "rawBytes": 2992,
+      "files": 1,
+      "sha256": "148e89a428ef064670d088afe320e2abf6bada31f297ead23ef25fcf8a775dd0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/marketing-campaign-team": {
+      "division": "marketing",
+      "slug": "marketing-campaign-team",
+      "path": "packs/marketing/marketing-campaign-team.tar.gz",
+      "bytes": 7475,
+      "rawBytes": 7038,
+      "files": 1,
+      "sha256": "c046cfb7bdc522e6ea75b6967239efdefa38a44ae885b53ef32c6c7e35713393",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/marketing-growth-team": {
+      "division": "marketing",
+      "slug": "marketing-growth-team",
+      "path": "packs/marketing/marketing-growth-team.tar.gz",
+      "bytes": 304212,
+      "rawBytes": 812258,
+      "files": 76,
+      "sha256": "3bd7cd7d2c3b142796d03d9429c355347c6b7e6c134ab13686c920f9d41921d0",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "marketing/news-briefing-expert": {
+      "division": "marketing",
+      "slug": "news-briefing-expert",
+      "path": "packs/marketing/news-briefing-expert.tar.gz",
+      "bytes": 33464,
+      "rawBytes": 73538,
+      "files": 12,
+      "sha256": "29c4e879cd0bfb44803fdca701ca2a8d8a842de22f149cf726997f42dc478a24",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "marketing/news-buddy": {
+      "division": "marketing",
+      "slug": "news-buddy",
+      "path": "packs/marketing/news-buddy.tar.gz",
+      "bytes": 39192,
+      "rawBytes": 96375,
+      "files": 18,
+      "sha256": "cb5ce277319dcf186dd6123fde47f167910c44eda4530c0350e49958412344e5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/nges-healthcare-marketing-team": {
+      "division": "marketing",
+      "slug": "nges-healthcare-marketing-team",
+      "path": "packs/marketing/nges-healthcare-marketing-team.tar.gz",
+      "bytes": 285585,
+      "rawBytes": 949812,
+      "files": 49,
+      "sha256": "e8d0bcd1bd2115bdcf59ea9db271435b0a22a6540035e2ce2f34baa0a9008b26",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/novel-creator": {
+      "division": "marketing",
+      "slug": "novel-creator",
+      "path": "packs/marketing/novel-creator.tar.gz",
+      "bytes": 42586,
+      "rawBytes": 85976,
+      "files": 7,
+      "sha256": "5835c244dc5582f2f6e2bff23b39516f2bb01d2a07bb659c202bfd76ec32b568",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "marketing/novel-generator": {
+      "division": "marketing",
+      "slug": "novel-generator",
+      "path": "packs/marketing/novel-generator.tar.gz",
+      "bytes": 2400,
+      "rawBytes": 1976,
+      "files": 1,
+      "sha256": "181937d8393bcba12d4498fc3b5e2a6b8e72c56c57004da4e8d68dda93614f51",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/ppc-bidding-strategist": {
+      "division": "marketing",
+      "slug": "ppc-bidding-strategist",
+      "path": "packs/marketing/ppc-bidding-strategist.tar.gz",
+      "bytes": 3243,
+      "rawBytes": 2818,
+      "files": 1,
+      "sha256": "753d9faf4b9d0c896198f0f87731b4cdfa57aa86bcc13e61ac595ba2a905a69f",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/ppt-creation-expert": {
+      "division": "marketing",
+      "slug": "ppt-creation-expert",
+      "path": "packs/marketing/ppt-creation-expert.tar.gz",
+      "bytes": 75369,
+      "rawBytes": 195552,
+      "files": 11,
+      "sha256": "7af559e0521d6cde86cea8e3f4c12d37ab999849c19490ebc6a371690c8dea10",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/private-domain-marketing-expert": {
+      "division": "marketing",
+      "slug": "private-domain-marketing-expert",
+      "path": "packs/marketing/private-domain-marketing-expert.tar.gz",
+      "bytes": 6253,
+      "rawBytes": 5814,
+      "files": 1,
+      "sha256": "d9000b250c8b7369faeb964cc4a950c1aa41939fd616d70d3bb304e9c0ca9aeb",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/programmatic-ad-buyer": {
+      "division": "marketing",
+      "slug": "programmatic-ad-buyer",
+      "path": "packs/marketing/programmatic-ad-buyer.tar.gz",
+      "bytes": 4030,
+      "rawBytes": 3594,
+      "files": 1,
+      "sha256": "a5d83c876634c8dba7250f205632d6841b629a905fc1cec99e74295cae2ddbb0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/promo-creator-team": {
+      "division": "marketing",
+      "slug": "promo-creator-team",
+      "path": "packs/marketing/promo-creator-team.tar.gz",
+      "bytes": 28143,
+      "rawBytes": 59890,
+      "files": 11,
+      "sha256": "a57c6d73aa9905ee3d2b23f11b723af3439d1c024b3611cb589dba32a843ab4a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/remotion-video-generator": {
+      "division": "marketing",
+      "slug": "remotion-video-generator",
+      "path": "packs/marketing/remotion-video-generator.tar.gz",
+      "bytes": 159607,
+      "rawBytes": 470381,
+      "files": 80,
+      "sha256": "74441e2a93b135a1fe254c93f47cf78ed8bcd1dd9d4013e1195a828a73995a63",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "rules",
+        "skills",
+        "templates"
+      ]
+    },
+    "marketing/seo-content-team": {
+      "division": "marketing",
+      "slug": "seo-content-team",
+      "path": "packs/marketing/seo-content-team.tar.gz",
+      "bytes": 29190,
+      "rawBytes": 61065,
+      "files": 11,
+      "sha256": "e2c9655fb51112c3270f09eaf91a0be0c84b19ebf1a423b3392acb4c97b9fd27",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/social-engagement-team": {
+      "division": "marketing",
+      "slug": "social-engagement-team",
+      "path": "packs/marketing/social-engagement-team.tar.gz",
+      "bytes": 42135,
+      "rawBytes": 89994,
+      "files": 11,
+      "sha256": "b00b7deac1f29e01f342d22c0879d4bde3f5ac6074348bf412fcf1c6c75968fc",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/tietu-toutiao": {
+      "division": "marketing",
+      "slug": "tietu-toutiao",
+      "path": "packs/marketing/tietu-toutiao.tar.gz",
+      "bytes": 57484,
+      "rawBytes": 177421,
+      "files": 28,
+      "sha256": "864454be30fd69636e5c67315678477d2facd10a36d99254fc1ed5adb754d5e7",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "marketing/topic-evaluator": {
+      "division": "marketing",
+      "slug": "topic-evaluator",
+      "path": "packs/marketing/topic-evaluator.tar.gz",
+      "bytes": 3744,
+      "rawBytes": 3310,
+      "files": 1,
+      "sha256": "84b7f626eff109424ae00b3b8501d949f06e0508646616e9ca8603574331de31",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/trend-hunter": {
+      "division": "marketing",
+      "slug": "trend-hunter",
+      "path": "packs/marketing/trend-hunter.tar.gz",
+      "bytes": 55116,
+      "rawBytes": 122567,
+      "files": 24,
+      "sha256": "2e7ecc4fa4874f167575aa3a096ce6091007343f13e72b495c5b053f7bc3110a",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/vibeknow-design-video": {
+      "division": "marketing",
+      "slug": "vibeknow-design-video",
+      "path": "packs/marketing/vibeknow-design-video.tar.gz",
+      "bytes": 1232018,
+      "rawBytes": 4581212,
+      "files": 38,
+      "sha256": "6c761ce4bf66c1b561f890e53a0125ccc2667e16749b5901592602cc372fffec",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "render-bundle",
+        "skills"
+      ]
+    },
+    "marketing/vibeknow-handdraw": {
+      "division": "marketing",
+      "slug": "vibeknow-handdraw",
+      "path": "packs/marketing/vibeknow-handdraw.tar.gz",
+      "bytes": 62387,
+      "rawBytes": 142713,
+      "files": 29,
+      "sha256": "77240ed8360a554f8e74962bfd389ceadf17d508a6e11859ff9632731f2ad806",
+      "dirs": [
+        "agents",
+        "avatars",
+        "mcp",
+        "render",
+        "skills"
+      ]
+    },
+    "marketing/vibeknow-ppt-explain": {
+      "division": "marketing",
+      "slug": "vibeknow-ppt-explain",
+      "path": "packs/marketing/vibeknow-ppt-explain.tar.gz",
+      "bytes": 51090,
+      "rawBytes": 111800,
+      "files": 26,
+      "sha256": "8908e58bfab4948a63243e6cc096c130fd20efdade80d9145ce0c1a2df906ac8",
+      "dirs": [
+        "agents",
+        "avatars",
+        "mcp",
+        "render",
+        "skills"
+      ]
+    },
+    "marketing/video-dissection": {
+      "division": "marketing",
+      "slug": "video-dissection",
+      "path": "packs/marketing/video-dissection.tar.gz",
+      "bytes": 37372,
+      "rawBytes": 97822,
+      "files": 14,
+      "sha256": "d56463207cc4eb3faccbae82dd29dd345c5eb63b2252864dc2f8a07658da8bd1",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/video-gen-team": {
+      "division": "marketing",
+      "slug": "video-gen-team",
+      "path": "packs/marketing/video-gen-team.tar.gz",
+      "bytes": 5869,
+      "rawBytes": 5434,
+      "files": 1,
+      "sha256": "7c589cdc4bf136ea992f987715840ee410cee0ad407a5d18c9d1907401843aaf",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "marketing/viral-topic-master": {
+      "division": "marketing",
+      "slug": "viral-topic-master",
+      "path": "packs/marketing/viral-topic-master.tar.gz",
+      "bytes": 27258,
+      "rawBytes": 54701,
+      "files": 13,
+      "sha256": "e8b841f8c2d1efa99649405ea62ccff66599bc697784c5bc488db40182e195dd",
+      "dirs": [
+        ".workbuddy-plugin",
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "marketing/wechat-official-account-expert": {
+      "division": "marketing",
+      "slug": "wechat-official-account-expert",
+      "path": "packs/marketing/wechat-official-account-expert.tar.gz",
+      "bytes": 61830,
+      "rawBytes": 143552,
+      "files": 35,
+      "sha256": "2e6afe3a67bd4b76e76c34045de95bf580115c2d2446c9e70fe3375423be794e",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "marketing/xiaohongshu-operations-expert": {
+      "division": "marketing",
+      "slug": "xiaohongshu-operations-expert",
+      "path": "packs/marketing/xiaohongshu-operations-expert.tar.gz",
+      "bytes": 142170,
+      "rawBytes": 381842,
+      "files": 31,
+      "sha256": "f8ce306445acebb3bc75a0f3c591b8c493feab761face0a9175c58c062427cbe",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "paid-media/computer-operations-advisor": {
+      "division": "paid-media",
+      "slug": "computer-operations-advisor",
+      "path": "packs/paid-media/computer-operations-advisor.tar.gz",
+      "bytes": 29914,
+      "rawBytes": 67320,
+      "files": 14,
+      "sha256": "29f5775a0ae45dff75f957f779e35236fc957823cf2c23490d6ce44e2d2429d3",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "paid-media/vietnam-public-affairs": {
+      "division": "paid-media",
+      "slug": "vietnam-public-affairs",
+      "path": "packs/paid-media/vietnam-public-affairs.tar.gz",
+      "bytes": 61575,
+      "rawBytes": 151745,
+      "files": 8,
+      "sha256": "920d922a808c3de28b83e325b9a2320a26001325ec4c590d1504cb0f8f5f595c",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "project-management/agent-orchestrator": {
+      "division": "project-management",
+      "slug": "agent-orchestrator",
+      "path": "packs/project-management/agent-orchestrator.tar.gz",
+      "bytes": 4022,
+      "rawBytes": 3588,
+      "files": 1,
+      "sha256": "93aa53686e0f460a190fdda45d681f367d30853a2ddd0122c4022cdb06e968bd",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "project-management/ai-meeting-notes": {
+      "division": "project-management",
+      "slug": "ai-meeting-notes",
+      "path": "packs/project-management/ai-meeting-notes.tar.gz",
+      "bytes": 3515,
+      "rawBytes": 3078,
+      "files": 1,
+      "sha256": "4eeed4774500989a6a1ae4befb1fbfe3f14f355b46236fac98d41ecff670d9f1",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "project-management/api-testing-expert": {
+      "division": "project-management",
+      "slug": "api-testing-expert",
+      "path": "packs/project-management/api-testing-expert.tar.gz",
+      "bytes": 3847,
+      "rawBytes": 3412,
+      "files": 1,
+      "sha256": "442b4f6fb48815f76528626ce29066c98eaee59bbdb94fa5007c0fe39aa907a4",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "project-management/document-generation-expert": {
+      "division": "project-management",
+      "slug": "document-generation-expert",
+      "path": "packs/project-management/document-generation-expert.tar.gz",
+      "bytes": 336451,
+      "rawBytes": 1527447,
+      "files": 79,
+      "sha256": "50613a785e67a19f977afae385b533920d63a79bcf858fb7627e9b8d3ec61de3",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "project-management/document-skills": {
+      "division": "project-management",
+      "slug": "document-skills",
+      "path": "packs/project-management/document-skills.tar.gz",
+      "bytes": 429977,
+      "rawBytes": 3446662,
+      "files": 188,
+      "sha256": "b2f785f944f739234a54b60359fb04fb53952c4dd7b4e0225aca7f0156b7adef",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "project-management/jira-workflow-admin": {
+      "division": "project-management",
+      "slug": "jira-workflow-admin",
+      "path": "packs/project-management/jira-workflow-admin.tar.gz",
+      "bytes": 3198,
+      "rawBytes": 2764,
+      "files": 1,
+      "sha256": "801a0de204c5a7b06edb398afd9611bd3bd0a6325aaafe74cd085d4b7ca6a23e",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "project-management/openspec-doc-team": {
+      "division": "project-management",
+      "slug": "openspec-doc-team",
+      "path": "packs/project-management/openspec-doc-team.tar.gz",
+      "bytes": 4315,
+      "rawBytes": 3880,
+      "files": 1,
+      "sha256": "018ac241cea7a42d162f84cfc390e7083ceccca42aa9a35fc4e3c0956f71e178",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "project-management/performance-testing-expert": {
+      "division": "project-management",
+      "slug": "performance-testing-expert",
+      "path": "packs/project-management/performance-testing-expert.tar.gz",
+      "bytes": 2729,
+      "rawBytes": 2300,
+      "files": 1,
+      "sha256": "31c57dc5e182c71914d851afe49018e34825eaab8cb932a6e2076e590f4cc524",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "project-management/yunzhi-doc-quality-expert": {
+      "division": "project-management",
+      "slug": "yunzhi-doc-quality-expert",
+      "path": "packs/project-management/yunzhi-doc-quality-expert.tar.gz",
+      "bytes": 19561267,
+      "rawBytes": 20381367,
+      "files": 27,
+      "sha256": "af1fdd6e6af203c44759ef6133582e131ca97ebc30ce2f5c33cdd16ad2248ac0",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "research/apm-performance-expert": {
+      "division": "research",
+      "slug": "apm-performance-expert",
+      "path": "packs/research/apm-performance-expert.tar.gz",
+      "bytes": 3821,
+      "rawBytes": 3382,
+      "files": 1,
+      "sha256": "85b864d2d253836ee9659127005240ab8d52a678bf4b6e76b3438b604f76d30b",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "research/egypt-public-affairs": {
+      "division": "research",
+      "slug": "egypt-public-affairs",
+      "path": "packs/research/egypt-public-affairs.tar.gz",
+      "bytes": 122496,
+      "rawBytes": 3932100,
+      "files": 31,
+      "sha256": "a04e775be0d4581f84f624a17b8e562a969ec0f886f7e6fb50579b73e6072f32",
+      "dirs": [
+        "Databases",
+        "Reference_Texts",
+        "agents",
+        "avatars",
+        "scripts",
+        "skills"
+      ]
+    },
+    "research/finops-expert": {
+      "division": "research",
+      "slug": "finops-expert",
+      "path": "packs/research/finops-expert.tar.gz",
+      "bytes": 4294,
+      "rawBytes": 3860,
+      "files": 1,
+      "sha256": "6bb7fca64fd6ece5569a13ac8b6f41f3002b463b753bac9666655694c67a4eac",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "research/fortune-consultant": {
+      "division": "research",
+      "slug": "fortune-consultant",
+      "path": "packs/research/fortune-consultant.tar.gz",
+      "bytes": 282450,
+      "rawBytes": 883175,
+      "files": 90,
+      "sha256": "11e197650853eafd053d66c558c4aff15df7ad4fa033f40dc64f18fecacb50e8",
+      "dirs": [
+        "agents",
+        "avatars",
+        "examples",
+        "license",
+        "skills"
+      ]
+    },
+    "research/hubble-eval-expert": {
+      "division": "research",
+      "slug": "hubble-eval-expert",
+      "path": "packs/research/hubble-eval-expert.tar.gz",
+      "bytes": 4614,
+      "rawBytes": 4176,
+      "files": 1,
+      "sha256": "04b0503c3b9759daadb7a02ca6f3b630f47edb8cd1e6a3426a142ff7369dc480",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "research/sre-expert": {
+      "division": "research",
+      "slug": "sre-expert",
+      "path": "packs/research/sre-expert.tar.gz",
+      "bytes": 2700,
+      "rawBytes": 2274,
+      "files": 1,
+      "sha256": "9ff71e217386dec896d464df65c0dd12224e895467c54e360f144aebf1823993",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "sales/bidding-strategist": {
+      "division": "sales",
+      "slug": "bidding-strategist",
+      "path": "packs/sales/bidding-strategist.tar.gz",
+      "bytes": 6219,
+      "rawBytes": 5778,
+      "files": 1,
+      "sha256": "afdbd2c8d14146c22aba02870c8e8824124f252156fa754fb32863ffd86ed1de",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "sales/cordys-crm": {
+      "division": "sales",
+      "slug": "cordys-crm",
+      "path": "packs/sales/cordys-crm.tar.gz",
+      "bytes": 59073,
+      "rawBytes": 185099,
+      "files": 22,
+      "sha256": "154066c6c51c82a80eeeeb455a7e823e8b52b39df321816920e2d1b8e2c07582",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "sales/enterprise-account-strategist": {
+      "division": "sales",
+      "slug": "enterprise-account-strategist",
+      "path": "packs/sales/enterprise-account-strategist.tar.gz",
+      "bytes": 3095,
+      "rawBytes": 2666,
+      "files": 1,
+      "sha256": "88bbdf384119f8aa255c65154965e7015443b491657a1b492808d75bdc3cceba",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "sales/industrial-park-investment-attraction-expert": {
+      "division": "sales",
+      "slug": "industrial-park-investment-attraction-expert",
+      "path": "packs/sales/industrial-park-investment-attraction-expert.tar.gz",
+      "bytes": 158307,
+      "rawBytes": 718053,
+      "files": 55,
+      "sha256": "22bede293db3a9a73b6743be1e7038b3e9592d785bc4dea3dfd80fa6c141fab9",
+      "dirs": [
+        "agents",
+        "avatars",
+        "contracts",
+        "examples",
+        "references",
+        "schemas",
+        "skills"
+      ]
+    },
+    "sales/linkfox-expert-amazon-listing-specialist": {
+      "division": "sales",
+      "slug": "linkfox-expert-amazon-listing-specialist",
+      "path": "packs/sales/linkfox-expert-amazon-listing-specialist.tar.gz",
+      "bytes": 2231001,
+      "rawBytes": 3624479,
+      "files": 255,
+      "sha256": "5918ceed4c0efc33c0b078b05b7b7fe5b707898717b4fa75a705917c437b9086",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "sales/meituan-living-assistant": {
+      "division": "sales",
+      "slug": "meituan-living-assistant",
+      "path": "packs/sales/meituan-living-assistant.tar.gz",
+      "bytes": 189737,
+      "rawBytes": 325778,
+      "files": 16,
+      "sha256": "a00889be9770fdd4f1a49ff22eff0d26a7a648a613c4912d2389949434878f70",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "scripts"
+      ]
+    },
+    "sales/presales-technical-consultant": {
+      "division": "sales",
+      "slug": "presales-technical-consultant",
+      "path": "packs/sales/presales-technical-consultant.tar.gz",
+      "bytes": 355232,
+      "rawBytes": 1573704,
+      "files": 83,
+      "sha256": "d1bd045c4748318a0ee3b4256b2a489a5b0244c8d974a0160a68975d5f82c5b2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "sales/sales-battle-team": {
+      "division": "sales",
+      "slug": "sales-battle-team",
+      "path": "packs/sales/sales-battle-team.tar.gz",
+      "bytes": 4993,
+      "rawBytes": 4562,
+      "files": 1,
+      "sha256": "b3a10935c65de93d069d2a1988cda053753ab092f9d93c28695bdfd51a00be42",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "sales/sdk-log-expert": {
+      "division": "sales",
+      "slug": "sdk-log-expert",
+      "path": "packs/sales/sdk-log-expert.tar.gz",
+      "bytes": 1026482,
+      "rawBytes": 3958670,
+      "files": 61,
+      "sha256": "aac43c67fc5a2af18fec6c4c18792d8d78989f28883751c00cf4032d02e54068",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "sales/sg-biz-dev": {
+      "division": "sales",
+      "slug": "sg-biz-dev",
+      "path": "packs/sales/sg-biz-dev.tar.gz",
+      "bytes": 79483,
+      "rawBytes": 205088,
+      "files": 21,
+      "sha256": "46ac31bebce14a670fc122332650b30490b0a5faeecf8290e8c535d7a2b91fa6",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "sales/smb-revenue": {
+      "division": "sales",
+      "slug": "smb-revenue",
+      "path": "packs/sales/smb-revenue.tar.gz",
+      "bytes": 453,
+      "rawBytes": 112,
+      "files": 1,
+      "sha256": "e59c591d58fcfc452a4c1f5b68b6c22b12347dd8c3dfdcc387ca55473b41afbb",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "sales/uupt-delivery": {
+      "division": "sales",
+      "slug": "uupt-delivery",
+      "path": "packs/sales/uupt-delivery.tar.gz",
+      "bytes": 82462,
+      "rawBytes": 164079,
+      "files": 17,
+      "sha256": "61e139df3c25ed44330429fc3cf4cd923970c541c2dc1440004342884212773d",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/chatlaw-team": {
+      "division": "security",
+      "slug": "chatlaw-team",
+      "path": "packs/security/chatlaw-team.tar.gz",
+      "bytes": 6723,
+      "rawBytes": 6282,
+      "files": 1,
+      "sha256": "8aa15c31f09633893b24d529ad4c00488214641e2b10696a8d99dbb34834c3e6",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/contract-expert": {
+      "division": "security",
+      "slug": "contract-expert",
+      "path": "packs/security/contract-expert.tar.gz",
+      "bytes": 82091,
+      "rawBytes": 201146,
+      "files": 18,
+      "sha256": "570f7b755294bb7f598eb8494c214e1543937289528be2c8e630f63c7eab65bf",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "skills"
+      ]
+    },
+    "security/contract-legal-expert": {
+      "division": "security",
+      "slug": "contract-legal-expert",
+      "path": "packs/security/contract-legal-expert.tar.gz",
+      "bytes": 104122,
+      "rawBytes": 248657,
+      "files": 15,
+      "sha256": "974af6d1a6144ea9d6a54baef231ce6228f44e1c68932835ad95f55ed692a717",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/enterprise-legal-team": {
+      "division": "security",
+      "slug": "enterprise-legal-team",
+      "path": "packs/security/enterprise-legal-team.tar.gz",
+      "bytes": 706988,
+      "rawBytes": 2106766,
+      "files": 199,
+      "sha256": "853276a399394c0e675581cd42513ceb538caf5e2b420cbbcd4fc51269c6bf1f",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "security/fbsir-aigc-compliance-red-team": {
+      "division": "security",
+      "slug": "fbsir-aigc-compliance-red-team",
+      "path": "packs/security/fbsir-aigc-compliance-red-team.tar.gz",
+      "bytes": 3552,
+      "rawBytes": 3108,
+      "files": 1,
+      "sha256": "509ee489f406db0d39c2c6ce1480b660a1a4fe1edb9b184961f59f9bba571a06",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/fbsir-board-secretary-assistant": {
+      "division": "security",
+      "slug": "fbsir-board-secretary-assistant",
+      "path": "packs/security/fbsir-board-secretary-assistant.tar.gz",
+      "bytes": 92105,
+      "rawBytes": 331828,
+      "files": 31,
+      "sha256": "353219ea1334942ec4edfcc953d08484cc8e2c3358ac0bbbdaa5156565038847",
+      "dirs": [
+        "agents",
+        "avatars",
+        "contracts",
+        "docs",
+        "evidence",
+        "skills"
+      ]
+    },
+    "security/huashu-doc-reviewer": {
+      "division": "security",
+      "slug": "huashu-doc-reviewer",
+      "path": "packs/security/huashu-doc-reviewer.tar.gz",
+      "bytes": 2192,
+      "rawBytes": 1772,
+      "files": 1,
+      "sha256": "51f07954b35d9749ddec24a36c79dcfdc73760690a0cb6d24c5d4951e70f5248",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/invoice-verify-expert": {
+      "division": "security",
+      "slug": "invoice-verify-expert",
+      "path": "packs/security/invoice-verify-expert.tar.gz",
+      "bytes": 1469,
+      "rawBytes": 1076,
+      "files": 1,
+      "sha256": "5eff17a5b66855a32bad251a4d8306999f6eddd8a76d2c5608c423feab62eeb0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/invoice-verify-workbuddy": {
+      "division": "security",
+      "slug": "invoice-verify-workbuddy",
+      "path": "packs/security/invoice-verify-workbuddy.tar.gz",
+      "bytes": 70583,
+      "rawBytes": 224776,
+      "files": 17,
+      "sha256": "87bd124e9f04c866a231bbba1b9960398774ce51457d7d064b1f8d6d70d2b118",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/ip-expert": {
+      "division": "security",
+      "slug": "ip-expert",
+      "path": "packs/security/ip-expert.tar.gz",
+      "bytes": 164503,
+      "rawBytes": 460665,
+      "files": 38,
+      "sha256": "28841f5ebcb0e89554fbf290f7c99caacaf918578c71d8779bfcaaf7287564e7",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "skills"
+      ]
+    },
+    "security/law-student-coach": {
+      "division": "security",
+      "slug": "law-student-coach",
+      "path": "packs/security/law-student-coach.tar.gz",
+      "bytes": 64485,
+      "rawBytes": 167054,
+      "files": 17,
+      "sha256": "f13b410823b9c7e4eda53c6ed6265a8fcc2428e8076dc2bd40f7e24d2cd944c5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "security/legal-builder-hub": {
+      "division": "security",
+      "slug": "legal-builder-hub",
+      "path": "packs/security/legal-builder-hub.tar.gz",
+      "bytes": 42037,
+      "rawBytes": 107090,
+      "files": 9,
+      "sha256": "efaac41f96066a6bbe6ae86053ca7610073377ba7cfb200aefc74bd607ff9c7b",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "security/legal-clinic-supervisor": {
+      "division": "security",
+      "slug": "legal-clinic-supervisor",
+      "path": "packs/security/legal-clinic-supervisor.tar.gz",
+      "bytes": 82007,
+      "rawBytes": 226496,
+      "files": 20,
+      "sha256": "8c296759ec97598eb0f5c10b4d075f3b6c469db5ea960cef34d5b77f0327b287",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "security/legal-compliance-reviewer": {
+      "division": "security",
+      "slug": "legal-compliance-reviewer",
+      "path": "packs/security/legal-compliance-reviewer.tar.gz",
+      "bytes": 418943,
+      "rawBytes": 1818911,
+      "files": 97,
+      "sha256": "2c2a54d8629129dd8242d660576bb2625b2db4426a374cfedb2a4dd7e661bb93",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "security/legal-search-pro": {
+      "division": "security",
+      "slug": "legal-search-pro",
+      "path": "packs/security/legal-search-pro.tar.gz",
+      "bytes": 138120,
+      "rawBytes": 373077,
+      "files": 30,
+      "sha256": "24436954c8e2fb735f66adf3fd667fbddb6f86a327dc2fb4c9697212696b5146",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "skills"
+      ]
+    },
+    "security/litigation-legal": {
+      "division": "security",
+      "slug": "litigation-legal",
+      "path": "packs/security/litigation-legal.tar.gz",
+      "bytes": 125577,
+      "rawBytes": 339389,
+      "files": 31,
+      "sha256": "58150087ebc96a5c7462c52fbcea1a773f6da5aacb95a0f6d4f21f1659cc23e5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references",
+        "skills"
+      ]
+    },
+    "security/marketing-reviewer": {
+      "division": "security",
+      "slug": "marketing-reviewer",
+      "path": "packs/security/marketing-reviewer.tar.gz",
+      "bytes": 4468,
+      "rawBytes": 4028,
+      "files": 1,
+      "sha256": "69e847c62b4d9a70ef533f5398687541a0c898cb17f36d0937687c7fc0fc8b55",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/personal-fitness-coach": {
+      "division": "security",
+      "slug": "personal-fitness-coach",
+      "path": "packs/security/personal-fitness-coach.tar.gz",
+      "bytes": 4938,
+      "rawBytes": 4494,
+      "files": 1,
+      "sha256": "b32b500a05f871615fe1c0eb701c7199435a54d097fd186573d7c3a862200355",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/sa-legal-compliance": {
+      "division": "security",
+      "slug": "sa-legal-compliance",
+      "path": "packs/security/sa-legal-compliance.tar.gz",
+      "bytes": 4014432,
+      "rawBytes": 15812389,
+      "files": 121,
+      "sha256": "0f8d8ce7e1069218e61a6736c7980d68e99eba22b64d342e76cf213994c6df31",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/smb-compliance": {
+      "division": "security",
+      "slug": "smb-compliance",
+      "path": "packs/security/smb-compliance.tar.gz",
+      "bytes": 444,
+      "rawBytes": 106,
+      "files": 1,
+      "sha256": "b7e3fd58d12c08f9e6b7bf53f3b60c2ccb7b505aa875d2a1f0ef265bf4f7cf8f",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "security/soe": {
+      "division": "security",
+      "slug": "soe",
+      "path": "packs/security/soe.tar.gz",
+      "bytes": 2457816,
+      "rawBytes": 6822254,
+      "files": 568,
+      "sha256": "575d58d081700baa2cabc5a471e405026c9fe82310f13c49411ee4c12b15d1b5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/tax-compliance-team": {
+      "division": "security",
+      "slug": "tax-compliance-team",
+      "path": "packs/security/tax-compliance-team.tar.gz",
+      "bytes": 28431,
+      "rawBytes": 63594,
+      "files": 10,
+      "sha256": "8571ee8cba1aa9c848c3423733514ad5c3e5b8829a5f3d297c05423e180f92bc",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/tc-sec": {
+      "division": "security",
+      "slug": "tc-sec",
+      "path": "packs/security/tc-sec.tar.gz",
+      "bytes": 183416,
+      "rawBytes": 518615,
+      "files": 76,
+      "sha256": "cfdfb61ae48297dc842fb478b551f5191c7dfc2115776908c4fd8b38043a655e",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "security/xiaofa-litigation-assistant": {
+      "division": "security",
+      "slug": "xiaofa-litigation-assistant",
+      "path": "packs/security/xiaofa-litigation-assistant.tar.gz",
+      "bytes": 172910,
+      "rawBytes": 999639,
+      "files": 30,
+      "sha256": "912bbef2307af33d6c041c5bd671813a4c8748468cb87ac7c4fa23ace46066df",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "spatial-computing/career-navigator": {
+      "division": "spatial-computing",
+      "slug": "career-navigator",
+      "path": "packs/spatial-computing/career-navigator.tar.gz",
+      "bytes": 5945,
+      "rawBytes": 5510,
+      "files": 1,
+      "sha256": "8a661705c551faefa9ce8abecce0f13e5d1b37d8995b98d5892ae08be9f94a4c",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "spatial-computing/chaogeek-kongming": {
+      "division": "spatial-computing",
+      "slug": "chaogeek-kongming",
+      "path": "packs/spatial-computing/chaogeek-kongming.tar.gz",
+      "bytes": 4462,
+      "rawBytes": 4028,
+      "files": 1,
+      "sha256": "e2475e2d8f46f7451cf0aa8d1da0f6401683f4f6cd6e6d614d8931c65aa38bf7",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "spatial-computing/chuangye-manor": {
+      "division": "spatial-computing",
+      "slug": "chuangye-manor",
+      "path": "packs/spatial-computing/chuangye-manor.tar.gz",
+      "bytes": 227487,
+      "rawBytes": 580873,
+      "files": 25,
+      "sha256": "9510e35918e90fd8c907ea6fdf451e6471a8d74add145d0c0ef4597874f9d1ff",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "spatial-computing/consulting-partners": {
+      "division": "spatial-computing",
+      "slug": "consulting-partners",
+      "path": "packs/spatial-computing/consulting-partners.tar.gz",
+      "bytes": 2340896,
+      "rawBytes": 7434184,
+      "files": 94,
+      "sha256": "6e848e34fdba83e4b65abd2162dc4cf144cdea7364e4be1bbcac5dc29331dd90",
+      "dirs": [
+        "agents",
+        "avatars",
+        "license",
+        "skills"
+      ]
+    },
+    "spatial-computing/english-writing-coach": {
+      "division": "spatial-computing",
+      "slug": "english-writing-coach",
+      "path": "packs/spatial-computing/english-writing-coach.tar.gz",
+      "bytes": 44041,
+      "rawBytes": 101765,
+      "files": 24,
+      "sha256": "d48719204b3d02f76571aabaf7b6c2d3f8262798d28ac4917a921ee7ef580de0",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "spatial-computing/fbsir-eight-seat-board": {
+      "division": "spatial-computing",
+      "slug": "fbsir-eight-seat-board",
+      "path": "packs/spatial-computing/fbsir-eight-seat-board.tar.gz",
+      "bytes": 217733,
+      "rawBytes": 804032,
+      "files": 87,
+      "sha256": "92840479d263b602c9c0bb5c815d0e7d0599c6a1bf8d0763063fea46e052c25e",
+      "dirs": [
+        "agents",
+        "avatars",
+        "contracts",
+        "examples",
+        "references",
+        "skills"
+      ]
+    },
+    "spatial-computing/fbsir-industry-scene-researcher": {
+      "division": "spatial-computing",
+      "slug": "fbsir-industry-scene-researcher",
+      "path": "packs/spatial-computing/fbsir-industry-scene-researcher.tar.gz",
+      "bytes": 64815,
+      "rawBytes": 202871,
+      "files": 23,
+      "sha256": "d89121704da8d744853cc51980874a0ad22c9c158b9fa5356c83cb696d5e17cf",
+      "dirs": [
+        "agents",
+        "avatars",
+        "contracts",
+        "examples",
+        "references",
+        "skills"
+      ]
+    },
+    "spatial-computing/fbsir-super-partner": {
+      "division": "spatial-computing",
+      "slug": "fbsir-super-partner",
+      "path": "packs/spatial-computing/fbsir-super-partner.tar.gz",
+      "bytes": 5729,
+      "rawBytes": 5294,
+      "files": 1,
+      "sha256": "465c8e9b91f01f442c85eb79fe681b68fd5699bd356502eeb42dad568ffce12a",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "spatial-computing/innovation-startup-mentor": {
+      "division": "spatial-computing",
+      "slug": "innovation-startup-mentor",
+      "path": "packs/spatial-computing/innovation-startup-mentor.tar.gz",
+      "bytes": 4384,
+      "rawBytes": 3946,
+      "files": 1,
+      "sha256": "5040af4526f6e2e18d22c474aeb70a0ea0dd2474bc3cc5fe56a2a8c9e568bef3",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "spatial-computing/malaysia-marketing": {
+      "division": "spatial-computing",
+      "slug": "malaysia-marketing",
+      "path": "packs/spatial-computing/malaysia-marketing.tar.gz",
+      "bytes": 3437,
+      "rawBytes": 3006,
+      "files": 1,
+      "sha256": "192c5a31eb29cbc6c591c34724ccd4029a391797b364908d5253084d69cf5a4d",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "spatial-computing/metamorphosis-practitioner": {
+      "division": "spatial-computing",
+      "slug": "metamorphosis-practitioner",
+      "path": "packs/spatial-computing/metamorphosis-practitioner.tar.gz",
+      "bytes": 2470,
+      "rawBytes": 2046,
+      "files": 1,
+      "sha256": "aa5761752f020e6361e9c42b8390b7d3de48311bf5c4ca09da4333fb76fd0679",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "spatial-computing/tianyu-account-guardian": {
+      "division": "spatial-computing",
+      "slug": "tianyu-account-guardian",
+      "path": "packs/spatial-computing/tianyu-account-guardian.tar.gz",
+      "bytes": 45053,
+      "rawBytes": 112542,
+      "files": 6,
+      "sha256": "3f4be8e7f9f81b52075f3f9f196c079b996a0768c42191a3807f8f0f8c696724",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "spatial-computing/uae-marketing-advisor": {
+      "division": "spatial-computing",
+      "slug": "uae-marketing-advisor",
+      "path": "packs/spatial-computing/uae-marketing-advisor.tar.gz",
+      "bytes": 33216,
+      "rawBytes": 85172,
+      "files": 6,
+      "sha256": "0fd70d178682cf4ec5866a38e7c3471c66703ec0a4dddb5abe811fe916ec93d1",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "spatial-computing/well-arch-expert": {
+      "division": "spatial-computing",
+      "slug": "well-arch-expert",
+      "path": "packs/spatial-computing/well-arch-expert.tar.gz",
+      "bytes": 2806,
+      "rawBytes": 2382,
+      "files": 1,
+      "sha256": "3ffab6f1ff1c689e205bc31ccf6d20265d54b2ad74a71377415cbaebf2a38eb0",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "specialized/campus-conversation-coach": {
+      "division": "specialized",
+      "slug": "campus-conversation-coach",
+      "path": "packs/specialized/campus-conversation-coach.tar.gz",
+      "bytes": 4341,
+      "rawBytes": 3912,
+      "files": 1,
+      "sha256": "dfcf8a21520470c0e2f43ccd3e34e9218856bd868c39da7f53bb225ba3252bfe",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "specialized/capacity-expert": {
+      "division": "specialized",
+      "slug": "capacity-expert",
+      "path": "packs/specialized/capacity-expert.tar.gz",
+      "bytes": 2680,
+      "rawBytes": 2250,
+      "files": 1,
+      "sha256": "8af90d6275347fd27814a9da3d59e49d2c598f15b7b4038941a685fb38028e51",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "specialized/chaos-expert": {
+      "division": "specialized",
+      "slug": "chaos-expert",
+      "path": "packs/specialized/chaos-expert.tar.gz",
+      "bytes": 2686,
+      "rawBytes": 2256,
+      "files": 1,
+      "sha256": "2eda7c78d0f52abbe18a54c60454e165b0a50ddc88b2b172b6dad398748803e5",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "specialized/fbsir-super-independent-board": {
+      "division": "specialized",
+      "slug": "fbsir-super-independent-board",
+      "path": "packs/specialized/fbsir-super-independent-board.tar.gz",
+      "bytes": 29077,
+      "rawBytes": 75168,
+      "files": 34,
+      "sha256": "1d5200cc0eef43da5b3631f8455d88ae3a99bb1cf3bb429da2f06f6a78b13106",
+      "dirs": [
+        "agents",
+        "avatars",
+        "contracts",
+        "skills"
+      ]
+    },
+    "specialized/indie-founder-coach": {
+      "division": "specialized",
+      "slug": "indie-founder-coach",
+      "path": "packs/specialized/indie-founder-coach.tar.gz",
+      "bytes": 3688,
+      "rawBytes": 3250,
+      "files": 1,
+      "sha256": "3f94ae13fd3bfdc9b11b46c017fb74897e33061b202504a1ef4f578167384312",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "specialized/job-companion-team": {
+      "division": "specialized",
+      "slug": "job-companion-team",
+      "path": "packs/specialized/job-companion-team.tar.gz",
+      "bytes": 26331,
+      "rawBytes": 51229,
+      "files": 13,
+      "sha256": "10a53ae7f3e554c2971cba5f68fcbe996eff425e3c5aba037af62b2e89748bf2",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "specialized/note-class-representative": {
+      "division": "specialized",
+      "slug": "note-class-representative",
+      "path": "packs/specialized/note-class-representative.tar.gz",
+      "bytes": 3412,
+      "rawBytes": 2982,
+      "files": 1,
+      "sha256": "68989e1babaaa1cd3ab9436225d365fd93c475df23203e78d51b917f4ca4dcc2",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "specialized/panshi-customer-visit-agent": {
+      "division": "specialized",
+      "slug": "panshi-customer-visit-agent",
+      "path": "packs/specialized/panshi-customer-visit-agent.tar.gz",
+      "bytes": 71924,
+      "rawBytes": 204462,
+      "files": 18,
+      "sha256": "93190136740272432e62a84efbc4bda5132c78fa5d6ea301e435c26a07dd1bd5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "specialized/tc-chengxin-travel-expert": {
+      "division": "specialized",
+      "slug": "tc-chengxin-travel-expert",
+      "path": "packs/specialized/tc-chengxin-travel-expert.tar.gz",
+      "bytes": 211112,
+      "rawBytes": 400503,
+      "files": 86,
+      "sha256": "6cca074d1d9eefca1cb3e8a0dedbfc8b1ff27d0a094a10f37c9ab6387ef5cafa",
+      "dirs": [
+        "agents",
+        "avatars",
+        "bin",
+        "runtime",
+        "scripts",
+        "skills"
+      ]
+    },
+    "specialized/worldcup-buddy": {
+      "division": "specialized",
+      "slug": "worldcup-buddy",
+      "path": "packs/specialized/worldcup-buddy.tar.gz",
+      "bytes": 25969,
+      "rawBytes": 58906,
+      "files": 9,
+      "sha256": "322a45b4763e56144c1d8f97ef64a13b443f8e75ed460a0b72fe0bd244a80942",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "support/campus-job-search-coach": {
+      "division": "support",
+      "slug": "campus-job-search-coach",
+      "path": "packs/support/campus-job-search-coach.tar.gz",
+      "bytes": 46583,
+      "rawBytes": 112334,
+      "files": 16,
+      "sha256": "010b8ed43c9450644b3f39dddeb055518c3ddf0fe113eb17cccfa4650f20b79c",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "support/skillhub-charity-expert-team": {
+      "division": "support",
+      "slug": "skillhub-charity-expert-team",
+      "path": "packs/support/skillhub-charity-expert-team.tar.gz",
+      "bytes": 204307,
+      "rawBytes": 562984,
+      "files": 37,
+      "sha256": "9fef06c567f5df570ea657ffcc74731b2d040f999e95901d98ad382252278f88",
+      "dirs": [
+        "agents",
+        "avatars",
+        "scripts",
+        "skills"
+      ]
+    },
+    "support/tencent-rtc-expert": {
+      "division": "support",
+      "slug": "tencent-rtc-expert",
+      "path": "packs/support/tencent-rtc-expert.tar.gz",
+      "bytes": 60566,
+      "rawBytes": 194425,
+      "files": 16,
+      "sha256": "257f8f29d8f39dc75a9127b6968473de99d43ec862d400704fb5798261fb8601",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "support/workbuddy-universal-mentor": {
+      "division": "support",
+      "slug": "workbuddy-universal-mentor",
+      "path": "packs/support/workbuddy-universal-mentor.tar.gz",
+      "bytes": 141605,
+      "rawBytes": 323127,
+      "files": 17,
+      "sha256": "184adc6f561a46d54551dff505d25044aa71fd4c371d30ea30ea321a5fb943c5",
+      "dirs": [
+        "agents",
+        "avatars",
+        "references"
+      ]
+    },
+    "testing/aladin-test-design": {
+      "division": "testing",
+      "slug": "aladin-test-design",
+      "path": "packs/testing/aladin-test-design.tar.gz",
+      "bytes": 3830,
+      "rawBytes": 3396,
+      "files": 1,
+      "sha256": "3b1c0c6deffbffe48a920526dd320549643129a388410dab18c2b634fc367a61",
+      "dirs": [
+        "avatars"
+      ]
+    },
+    "testing/skill-smith": {
+      "division": "testing",
+      "slug": "skill-smith",
+      "path": "packs/testing/skill-smith.tar.gz",
+      "bytes": 61934,
+      "rawBytes": 205249,
+      "files": 16,
+      "sha256": "cdc72be9504a239f4a96eca5d92414c3684d0e51dea159162ea752704259ac26",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    },
+    "testing/thesis-writing-mentor": {
+      "division": "testing",
+      "slug": "thesis-writing-mentor",
+      "path": "packs/testing/thesis-writing-mentor.tar.gz",
+      "bytes": 78899,
+      "rawBytes": 186443,
+      "files": 42,
+      "sha256": "080a063cd7aaa687e5c7acc87380bd924ec2a2e43c09ba889ac0e352a1c54668",
+      "dirs": [
+        "agents",
+        "avatars",
+        "skills"
+      ]
+    }
+  }
+}

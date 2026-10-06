@@ -1,0 +1,90 @@
+{
+  "academic": {
+    "en": "Academic",
+    "zh": "学术"
+  },
+  "company": {
+    "en": "Company Leadership",
+    "zh": "公司经营"
+  },
+  "design": {
+    "en": "Design",
+    "zh": "设计"
+  },
+  "engineering": {
+    "en": "Engineering",
+    "zh": "工程"
+  },
+  "finance": {
+    "en": "Finance",
+    "zh": "金融"
+  },
+  "game-development": {
+    "en": "Game Development",
+    "zh": "游戏开发"
+  },
+  "gis": {
+    "en": "GIS",
+    "zh": "GIS"
+  },
+  "healthcare": {
+    "en": "Healthcare",
+    "zh": "医疗健康"
+  },
+  "hr": {
+    "en": "Human Resources",
+    "zh": "人力资源"
+  },
+  "legal": {
+    "en": "Legal",
+    "zh": "法务"
+  },
+  "marketing": {
+    "en": "Marketing",
+    "zh": "营销"
+  },
+  "paid-media": {
+    "en": "Paid Media",
+    "zh": "付费媒体"
+  },
+  "product": {
+    "en": "Product",
+    "zh": "产品"
+  },
+  "project-management": {
+    "en": "Project Management",
+    "zh": "项目管理"
+  },
+  "research": {
+    "en": "Research",
+    "zh": "研究"
+  },
+  "sales": {
+    "en": "Sales",
+    "zh": "销售"
+  },
+  "security": {
+    "en": "Security",
+    "zh": "安全"
+  },
+  "spatial-computing": {
+    "en": "Spatial Computing",
+    "zh": "空间计算"
+  },
+  "specialized": {
+    "en": "Specialized",
+    "zh": "专项"
+  },
+  "supply-chain": {
+    "en": "Supply Chain",
+    "zh": "供应链"
+  },
+  "support": {
+    "en": "Support",
+    "zh": "支持"
+  },
+  "testing": {
+    "en": "Testing",
+    "zh": "测试"
+  }
+}

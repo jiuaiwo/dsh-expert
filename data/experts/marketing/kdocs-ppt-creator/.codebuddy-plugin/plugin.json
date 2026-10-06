@@ -1,0 +1,69 @@
+{
+  "name": "kdocs-ppt-creator",
+  "version": "2.6.4",
+  "description": "PPT 创作专家：一句话生成完整 PPT，AI 自动设计大纲和内容，支持工作汇报/培训/方案展示。",
+  "author": {
+    "name": "Kingsoft Office",
+    "email": "kdocs@wps.com"
+  },
+  "expertType": "agent",
+  "agentName": "kdocs-ppt-creator",
+  "agents": [
+    "./agents/kdocs-ppt-creator.md"
+  ],
+  "skills": [
+    "./skills/ppt-gen"
+  ],
+  "displayName": {
+    "en": "KDocs PPT Creator Assistant",
+    "zh": "金山文档PPT创作助手"
+  },
+  "profession": {
+    "en": "PPT Creator Expert",
+    "zh": "PPT 创作专家"
+  },
+  "displayDescription": {
+    "en": "By Kingsoft Docs From a single-line topic or a source document, AI plans the outline and generates a complete deck with title/content/summary slides, styled for the target scenario — ideal for reports, project showcases, training and pitches.",
+    "zh": "金山文档出品，一句话或参考文档即可生成完整PPT，自动完成大纲排版与场景配色方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我做一个「部门Q1工作总结」的PPT，包含业绩回顾、项目进展、下季度计划",
+    "en": "Create a Q1 department summary PPT covering performance review, project progress, and next quarter plan"
+  },
+  "tags": [
+    {
+      "en": "One-line PPT",
+      "zh": "一句话出PPT"
+    },
+    {
+      "en": "AI PPT",
+      "zh": "AI PPT"
+    },
+    {
+      "en": "Auto Layout",
+      "zh": "自动排版"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Create a Q1 department summary PPT covering performance review, project progress, and next quarter plan",
+      "zh": "帮我做一个「部门Q1工作总结」的PPT，包含业绩回顾、项目进展、下季度计划"
+    },
+    {
+      "en": "Generate a 15-page onboarding training presentation for new hires",
+      "zh": "帮我生成一个「新员工入职培训」的演示文稿，大概15页"
+    },
+    {
+      "en": "Create a product competitive analysis PPT",
+      "zh": "帮我做一个关于「产品竞品分析」的PPT"
+    }
+  ],
+  "plugin": "kdocs-ppt-creator",
+  "dependencies": {
+    "connectors": [
+      "kdocs"
+    ]
+  }
+}
