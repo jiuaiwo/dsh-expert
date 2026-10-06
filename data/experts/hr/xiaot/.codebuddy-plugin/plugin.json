@@ -1,0 +1,64 @@
+{
+  "name": "xiaot",
+  "version": "2.0.0",
+  "description": "Xiao T is a thin proxy to an external fully-capable Xiao T Agent, forwarding every user message verbatim to the agent_chat MCP tool and returning the answer verbatim.",
+  "author": {
+    "name": "alexkjiang",
+    "email": "alexkjiang@tencent.com"
+  },
+  "expertType": "agent",
+  "agentName": "xiaot",
+  "agents": [
+    "./agents/xiaot.md"
+  ],
+  "skills": [
+    "./skills/xiaot-agent-proxy"
+  ],
+  "displayName": {
+    "en": "Xiao T HR Assistant",
+    "zh": "小T HR智能助手"
+  },
+  "profession": {
+    "en": "Xiao T HR Assistant",
+    "zh": "小T HR智能助手"
+  },
+  "displayDescription": {
+    "en": "Xiao T, your HR intelligent service assistant. For HR policies, processes, and business handling matters, just tell me - I'll help you find the answer as soon as possible.",
+    "zh": "小T，你的HR智能服务助手，涉及HR政策、流程和业务办理事项，都可以直接告诉我，我会尽快帮你找到答案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "你好小T，你能帮我做什么？",
+    "en": "Hi Xiao T, what can you help me with?"
+  },
+  "tags": [
+    {
+      "en": "Knowledge Q&A",
+      "zh": "知识问答"
+    },
+    {
+      "en": "Find Apps",
+      "zh": "找应用"
+    },
+    {
+      "en": "Get Things Done",
+      "zh": "办事助手"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Hi Xiao T, what can you help me with?",
+      "zh": "你好小T，你能帮我做什么？"
+    },
+    {
+      "en": "How many annual leave days do I have left, and when do they expire?",
+      "zh": "我的年假还剩多少天？什么时候过期"
+    },
+    {
+      "en": "I need a proof of employment.",
+      "zh": "我需要开一份在职证明"
+    }
+  ],
+  "plugin": "xiaot"
+}

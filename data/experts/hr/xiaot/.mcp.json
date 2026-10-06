@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "hr-agent": {
+      "url": "https://hr-agent.mcp.it.woa.com"
+    }
+  }
+}

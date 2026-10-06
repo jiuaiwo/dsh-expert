@@ -1,0 +1,73 @@
+# 第三方组件与内容声明
+
+本插件（`dsh-expert`，MIT，见 `LICENSE`）随包分发两类第三方成果：专家名册与中文侧车内容、
+以及一个运行期 npm 依赖。它们各自保留原许可，本文件说明来源、版本与许可，以便再分发时履行署名义务。
+**完整许可文本随包分发**在 `vendor/third-party-licenses/` 下（见第 3 节）。
+
+## 1. 专家名册与中文侧车
+
+| 项 | 值 |
+| --- | --- |
+| 英文名册 | The Agency / AgentLand（`msitarzewski/agency-agents`）— MIT，Copyright (c) 2025 AgentLand Contributors。完整文本随包：`vendor/third-party-licenses/agency-agents.LICENSE` |
+| 中文译文 | `jnMetaCode/agency-agents-zh`（中文翻译与本地化）— MIT，Copyright (c) 2025 Michael Sitarzewski（英文原版）、Copyright (c) 2026 jnMetaCode（中文翻译与本地化）。完整文本随包：`vendor/third-party-licenses/agency-agents-zh.LICENSE` |
+| 分发形态 | 上述两部分内容随 `@michengai/dsh-agency-agents` 一同分发（该包自身的 TypeScript 源码与构建脚本为 Apache-2.0，**本插件不打包其任何代码**） |
+| 位置 | `data/experts/`（22 个分类 / 623 位）、`data/zh/`（中文名字 / 简介 / 人格正文 / 分类标签） |
+| 维护方式 | 上述内容随本插件分发（`data/` 是发布源，不再从上游重新镜像）；`data/source.json` 是该名册的清单（专家数 / 分类 / 更新时间） |
+
+名册的构成分五部分（总计 623 位）：
+
+- **279 位来自 `msitarzewski/agency-agents`**（上表英文名册一行）。
+- **35 位来自 `@michengai/dsh-agency-agents` 的包内快照**（company / hr / legal / supply-chain
+  四个分类，以及若干中国本地化角色）。这些条目在另一上游仓库的任何历史与分支里都不存在，只随该包分发。
+  它们的英文人格与中文译文同样按上表两个 MIT 项目（AgentLand Contributors / jnMetaCode）的条款使用，
+  完整许可文本与上表共用。与已有角色职能重复的条目未并入。
+- **7 位来自 `jnMetaCode/agency-agents-zh`**（上表「中文译文」一行；2026-09-15 与该源对齐时补入）。
+  该源按 slug 与正文比对后判定为插件缺失，其中 6 位是该源独有的角色，另 1 位是
+  `engineering/engineering-threat-detection-engineer.md`（威胁检测工程师·工程侧）——它与已并入的
+  安全运营侧同族版本侧重不同，两者并存。这些条目在英文上游 `msitarzewski/agency-agents` 里没有对应
+  文件，故以该源的**中文文件为主文件**（`data/experts/` 与 `data/zh/` 同时写入），
+  按上表 jnMetaCode 的 MIT 条款使用，完整许可文本与中文译文一行共用。
+- **2 位为本仓自建**，由本插件作者撰写、按本插件的 MIT 许可发布。它们**不属于上述任何第三方来源，
+  也不在本节的署名范围内**：
+  - `engineering/engineering-typescript-npm-stack-maintainer.md`（TypeScript / npm Stack Maintainer）
+  - `engineering/engineering-deepseek-harness-project-expert.md`（DeepSeek Harness Project Expert）
+
+  它们没有中文译文正文（`data/zh/` 已冻结）；作为例外，中文名与中文简介手写在
+  `data/zh/names.json` 与 `data/zh/descriptions.json` 里，人格正文回退英文。
+- **300 位来自 WorkBuddy 专家市场**（腾讯 CodeBuddy 的公开专家市场，2026-09-29 导入）。
+  它们以「目录形态专家包」随包分发：`<分类>/<slug>/persona.md` 是名册入口，原始 `agents/`、
+  `skills/` 与全部附件（references、Databases 等）一并保留在包内。
+  **其版权与许可归腾讯及其各自的专家作者所有**，本插件只做本地聚合与形态转换，不声称对其拥有
+  任何权利；导入时已清洗包内残留的打包者本机绝对路径（`/Users/...`）。
+
+> 上述第三方内容自 2026-09-12 起随本插件分发并作为**名册真源**维护，不再从上游重新拉取或镜像
+> （原镜像 / 补入脚本与逐条判定记录已移除；需要追溯当时来源与判定，见仓库 git 历史）。
+
+`data/zh/manual.json` 与 `data/zh/manual-bodies/` 是**本项目的补充翻译**（用于补齐尚未覆盖的条目
+或在译文不准确时覆盖），随本插件以 MIT 发布，同样保留在包内。
+
+## 2. 定时任务调度器（运行时依赖）
+
+| 项 | 值 |
+| --- | --- |
+| 上游包 | [`croner`](https://www.npmjs.com/package/croner) |
+| 上游仓库 | https://github.com/Hexagon/croner |
+| 版本 | `^9.1.0`（`package.json` 的 `dependencies`） |
+| 许可 | MIT — Copyright (c) 2015-2021 Hexagon <github.com/Hexagon> |
+| 位置 | **不作为源码内联**：按普通 npm 依赖安装（`node_modules/croner`），由 `lib/schedule.js` 在运行期 `import { Cron }` |
+| 许可全文 | `vendor/third-party-licenses/croner.LICENSE`（随包分发，便于再分发者与离线安装核对） |
+
+用途：T专家 的定时任务（cron 表达式解析、下次触发时间预览、定时器）由它提供；本插件不修改其源码。
+
+> 与 `@weibaohui/dsh-tasks` 的关系：两者都用 `croner`，但**各自声明依赖、各装各的**，
+> 数据文件、服务名与定时器互不共享（见 README 的「定时任务」一节）。
+
+## 3. 分发要求
+
+再分发本插件（或其修改版）时请一并保留以下文件（它们都在 npm 包内）：
+
+- `LICENSE`（本插件）
+- `THIRD-PARTY-NOTICES`（本文件）
+- `vendor/third-party-licenses/agency-agents.LICENSE`（英文名册）
+- `vendor/third-party-licenses/agency-agents-zh.LICENSE`（中文译文）
+- `vendor/third-party-licenses/croner.LICENSE`（定时任务调度器，运行时依赖）
