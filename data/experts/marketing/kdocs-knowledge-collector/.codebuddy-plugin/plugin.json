@@ -1,0 +1,71 @@
+{
+  "name": "kdocs-knowledge-collector",
+  "version": "2.6.4",
+  "description": "知识收藏专家：网页剪藏、碎片笔记整理、文档总结与内容生成。",
+  "author": {
+    "name": "Kingsoft Office",
+    "email": "kdocs@wps.com"
+  },
+  "expertType": "agent",
+  "agentName": "kdocs-knowledge-collector",
+  "agents": [
+    "./agents/kdocs-knowledge-collector.md"
+  ],
+  "skills": [
+    "./skills/web-clipper",
+    "./skills/fragment-organize",
+    "./skills/doc-writer"
+  ],
+  "displayName": {
+    "en": "KDocs Knowledge Collector Assistant",
+    "zh": "金山文档知识收藏助手"
+  },
+  "profession": {
+    "en": "Knowledge Collector",
+    "zh": "知识收藏专家"
+  },
+  "displayDescription": {
+    "en": "By Kingsoft Docs Turn scattered web articles, messages and notes into structured knowledge: one-click clipping to cloud docs, AI-powered note organization by topic, and auto-summarization across multiple documents.",
+    "zh": "金山文档出品，支持网页剪藏、碎片笔记整理与多文档智能摘要，帮你沉淀云端知识资产。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我整理一下这些碎片笔记：\n- AI大模型趋势\n- 下周要交季报\n- 新功能上线计划\n- 竞品分析要做\n- Agent是未来方向",
+    "en": "Organize these scattered notes: AI trends, quarterly report due, new feature plan, competitor analysis, Agent is the future"
+  },
+  "tags": [
+    {
+      "en": "Web Clipping",
+      "zh": "网页剪藏"
+    },
+    {
+      "en": "Document Summary",
+      "zh": "文档总结"
+    },
+    {
+      "en": "Knowledge Management",
+      "zh": "知识管理"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Organize these scattered notes: AI trends, quarterly report due, new feature plan, competitor analysis, Agent is the future",
+      "zh": "帮我整理一下这些碎片笔记：\n- AI大模型趋势\n- 下周要交季报\n- 新功能上线计划\n- 竞品分析要做\n- Agent是未来方向"
+    },
+    {
+      "en": "Save this WeChat article to Kdocs https://mp.weixin.qq.com/s/example123",
+      "zh": "帮我保存这篇公众号文章到金山文档 https://mp.weixin.qq.com/s/example123"
+    },
+    {
+      "en": "Combine Q1 Summary and Q2 Plan into a half-year work report",
+      "zh": "帮我把「Q1总结」和「Q2计划」这两份文档汇总，生成一份半年度工作报告"
+    }
+  ],
+  "plugin": "kdocs-knowledge-collector",
+  "dependencies": {
+    "connectors": [
+      "kdocs"
+    ]
+  }
+}
