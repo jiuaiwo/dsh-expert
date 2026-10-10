@@ -1,0 +1,64 @@
+{
+  "name": "yunzhi-doc-quality-expert",
+  "version": "1.7.1",
+  "description": "One-stop quality inspector for cloud product documents: 7-dimension full check plus 100-point scoring with a visual HTML report",
+  "author": {
+    "name": "doc-quality-team",
+    "email": "doc-quality-team@example.com"
+  },
+  "expertType": "agent",
+  "agentName": "doc-quality-inspector",
+  "agents": [
+    "./agents/doc-quality-inspector.md"
+  ],
+  "skills": [
+    "./skills/cloud-doc-quality-suite"
+  ],
+  "displayName": {
+    "en": "Tencent Cloud Knowledge Review Expert",
+    "zh": "腾讯云知知识评审专家"
+  },
+  "profession": {
+    "en": "Tencent Cloud Knowledge Review Expert",
+    "zh": "腾讯云知知识评审专家"
+  },
+  "displayDescription": {
+    "en": "A quality inspector for cloud product documents. Runs a full 7-dimension check across timeliness, structure, links, layout, writing standards, currency and legal compliance, then gives a 100-point score with a visual HTML report.",
+    "zh": "面向云计算产品文档的一站式质量检测：七维体检（时效/结构/链接/排版/写作/货币/合规）+百分制评分+可视化HTML报告。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "zh": "帮我全面检测这份文档的质量",
+    "en": "Run a full quality check on this document"
+  },
+  "tags": [
+    {
+      "en": "Doc Quality",
+      "zh": "文档质量"
+    },
+    {
+      "en": "Compliance",
+      "zh": "合规审查"
+    },
+    {
+      "en": "Quality Scoring",
+      "zh": "质量评分"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Run a full quality check on this document",
+      "zh": "帮我全面检测这份文档的质量"
+    },
+    {
+      "en": "Run a legal compliance check on this document",
+      "zh": "对这篇文档做法律合规检测"
+    },
+    {
+      "en": "Check this document's writing standards and typos",
+      "zh": "检查这份文档的写作规范和错别字"
+    }
+  ],
+  "plugin": "yunzhi-doc-quality-expert"
+}

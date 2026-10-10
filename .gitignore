@@ -1,0 +1,31 @@
+node_modules
+.DS_Store
+*.log
+package.json.bak.*
+.mnemon/
+
+# 运行时同步记录（seedData 写进数据目录的，不是名册内容；绝不能进包）
+data/.t-team-snapshot.json
+# 团队运行时状态目录（验证/调试时可能落在仓库内，绝不能进 git/包）
+.agent-teams/
+
+# 云端分发的中间产物：tar 包上传到 OBS 后即无用，绝不进 git（清单 data/roster.json 才进）
+dist/
+
+# WorkBuddy 同步的 ETag 快照（机器相关，不入库）
+tools/.workbuddy-etags.json
+
+# 打包前的 roster 备份（编排脚本自动生成，用完即弃）
+data/roster.json.bak-before-pack
+__pycache__/
+
+# 凭证类文件绝不进仓库 / 绝不进 npm 包。
+# 2026-10-06：WorkBuddy 专家包 invoice-verify-workbuddy 自带一个 .env，里面是真实的
+# 阿里云 OSS AccessKey ID + Secret，被导入脚本原样复制进来，还被 GitHub 的 push protection
+# 在推新仓库时当场拦下才暴露。mcp-config.json 用的本来就是 ${VAR} 占位符 —— 这类文件
+# 属于使用者自己的配置，不该随包分发。
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*

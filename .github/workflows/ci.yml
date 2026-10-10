@@ -1,0 +1,58 @@
+name: CI
+
+# D-1：仓库此前完全没有 CI —— 555 项自检只能靠维护者在"装有运维目录的机器"上手跑，
+# 于是「改了但忘了跑」没有任何机制兜住。这里把最小可复现的五件事固化成门禁：
+#   1. 类型检查（tsconfig.json 只覆盖自研 Host 文件，见 D-3）
+#   2. 自检套件（不需要运维目录；运维相关的几节会在缺失时自行跳过）
+#   3. 客户端产物可复现（构建一遍，产物必须与仓库里已提交的 lib/client.js 一致）
+#   4. 包内 data 快照与真源一致（sync-data --check，拦住"包里带着旧名册"）
+#   5. 发布包形态（真打一份 tgz，确认 files 白名单没漏东西）
+#
+# 注意：本仓库是**本地插件仓库**，依赖的 @deepseek-ai/* 由 DSH 宿主在运行期提供，
+# 这里只装开发期依赖（.npmrc 里开了 legacy-peer-deps，原因见该文件注释）。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install (dev only)
+        run: npm ci --ignore-scripts
+      - name: Typecheck
+        run: npm run typecheck
+      # 客户端源码里“引用了另一个组件局部变量”的检查：打包不报、文本断言看不出，
+      # 只在那个组件被渲染时炸成 ReferenceError（0.3.49 的 ExpertPicker 残留就是这么漏的）。
+      - name: Client source refs
+        run: npm run check-client
+      # 客户端组件的渲染冒烟：把每个组件（含设置页各标签）真的渲染一遍。
+      # 上面那条是静态引用检查，这条能抓住「只在渲染时炸」的问题（0.3.49 的 ExpertPicker 残留）。
+      - name: Client render smoke
+        run: npm run render-smoke
+      - name: Verify (555 assertions)
+        run: npm run verify
+      # 产物可复现：构建一遍，并断言已提交的 lib/client.js 与构建结果**逐字节一致**。
+      # 为什么要有：命令行装了新依赖或改了 src/client/ 下的客户端源码却忘记 `npm run build` 时，
+      # 仓库里那份产物会悄悄落后于源（自检 [6c] 只比渲染结果，这里连字节一起比）。
+      - name: Client bundle is reproducible
+        run: |
+          npm run build
+          git diff --exit-code -- lib/client.js
+      # 包内 data 快照必须与真源一致。prepublishOnly 里有这道 check，但 CI 过去不跑它，
+      # 于是「包里带着旧名册」可以一路绿灯通过 PR。
+      # ⚠️ 但**源数据（~/.t-team）只存在于维护者机器上**，runner 上必然没有 —— 所以这一步在
+      #    CI 上会打印「已跳过」并退 0（sync-data.mjs 的 --check 源缺失语义就是为此而设；
+      #    旧实现不分模式一律退 1，于是这一步从加入起就一直是红的）。
+      #    真正拦住「包里带着旧名册」的地方是维护者机器上的 prepublishOnly。
+      - name: Packaged data is in sync
+        run: npm run sync-data -- --check
+      - name: Package shape
+        run: npm pack --dry-run --ignore-scripts
