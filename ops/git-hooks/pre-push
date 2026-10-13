@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+# 拦住「会把开发历史推上 GitHub」的推送。
+#
+# 远端 main 只该收到**一条无父提交的发布快照**，tag 也只该指向那种快照。
+# 为什么需要这道闸（2026-10-06 实测）：**tag 自带父链**。在本地 main 上打 tag 再推时，
+# 分支推送会被 non-fast-forward 拒绝、`git push` 退出码非 0，可 **tag 照样推成功** ——
+# 从远端 clone 下来顺着那个 tag 就能看到全部开发提交。脚本还会打印「推送失败」，
+# 看起来像什么都没发生。靠"记得别这么推"是靠不住的，所以用机器拦。
+#
+# 安装（每个克隆各做一次）：git config core.hooksPath ops/git-hooks
+# 临时绕过：git push --no-verify
+set -u
+
+zero=0000000000000000000000000000000000000000
+bad=0
+
+# git 通过标准输入把「本地 ref / 本地 SHA / 远端 ref / 远端 SHA」四元组喂进来
+while read -r local_ref local_sha remote_ref remote_sha; do
+  # 删除远端 ref（local_sha 全 0）：放行
+  [ "$local_sha" = "$zero" ] && continue
+
+  case "$remote_ref" in
+    refs/heads/main | refs/heads/master)
+      parents="$(git rev-list --parents -n1 "$local_sha" 2>/dev/null | wc -w | tr -d ' ')"
+      if [ "${parents:-0}" -gt 1 ]; then
+        total="$(git rev-list --count "$local_sha" 2>/dev/null || printf '?')"
+        {
+          printf '\n✗ 拒绝推送：交给 %s 的不是无父提交的发布快照 —— 沿父链回溯共 %s 条提交。\n' "$remote_ref" "$total"
+          printf '  远端主干只收 1 条快照，带父链就会把整条开发历史一起送上去。\n'
+          printf '  正确姿势：bash ops/tz.sh publish（它造快照，并把 tag 落在快照上）\n'
+        } >&2
+        bad=1
+      fi
+      ;;
+    refs/tags/*)
+      target="$(git rev-parse --verify --quiet "${local_sha}^{commit}" 2>/dev/null || true)"
+      if [ -n "$target" ]; then
+        parents="$(git rev-list --parents -n1 "$target" 2>/dev/null | wc -w | tr -d ' ')"
+        if [ "${parents:-0}" -gt 1 ]; then
+          total="$(git rev-list --count "$target" 2>/dev/null || printf '?')"
+          {
+            printf '\n✗ 拒绝推送：tag %s 指向的不是无父快照 —— 沿父链回溯共 %s 条提交。\n' "$remote_ref" "$total"
+            printf '  tag 的父链会把整条开发历史送到远端 —— 实测过：分支推送被拒、退出码非 0，tag 却成功了。\n'
+            printf '  正确姿势：bash ops/tz.sh publish（tag 会落在无父的发布快照上）\n'
+          } >&2
+          bad=1
+        fi
+      fi
+      ;;
+  esac
+done
+
+exit "$bad"

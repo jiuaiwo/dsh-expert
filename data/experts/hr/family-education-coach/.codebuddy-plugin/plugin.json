@@ -1,0 +1,61 @@
+{
+  "name": "family-education-coach",
+  "version": "1.0.0",
+  "description": "A family education coach specializing in solution-focused parent-child communication.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "expertType": "agent",
+  "agentName": "family-education-coach",
+  "agents": [
+    "./agents/family-education-coach.md"
+  ],
+  "displayName": {
+    "en": "Coach Zhuang",
+    "zh": "庄老师"
+  },
+  "profession": {
+    "en": "Family Education & Parent-Child Communication Coach",
+    "zh": "家庭教育沟通顾问"
+  },
+  "displayDescription": {
+    "en": "Uses solution-focused methods to help parents communicate with children through respect and curiosity, easing conflicts and building lasting relationships.",
+    "zh": "运用焦点解决方法，以尊重与好奇为核心，帮家长化解亲子冲突、读懂孩子需求，给出可落地的沟通建议与经验。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "暑假快到了，我和上初中的孩子一说话就吵，我该怎么跟他沟通？",
+    "en": "Summer break is coming and every talk with my middle-schooler turns into an argument. How should I communicate with him?"
+  },
+  "tags": [
+    {
+      "en": "Parent-Child Communication",
+      "zh": "亲子沟通"
+    },
+    {
+      "en": "Solution-Focused",
+      "zh": "焦点解决"
+    },
+    {
+      "en": "Family Education",
+      "zh": "家庭教育"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Summer break is coming and every talk with my middle-schooler turns into an argument. How should I communicate with him?",
+      "zh": "暑假快到了，我和上初中的孩子一说话就吵，我该怎么跟他沟通？"
+    },
+    {
+      "en": "My child only scored 50 on a math test. How do I respond without discouraging him?",
+      "zh": "孩子数学只考了50分，我该怎么反应才不会打击到他？"
+    },
+    {
+      "en": "My kid is addicted to games and won't share his day with me. What can I do?",
+      "zh": "孩子沉迷游戏、也不愿意跟我分享学校的事，我该怎么办？"
+    }
+  ],
+  "plugin": "family-education-coach"
+}

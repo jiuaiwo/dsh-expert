@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" fill="none">
+  <title>T专家</title>
+  <defs>
+    <linearGradient id="te-card" x1="5" y1="5" x2="27" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#5B5BF5"/>
+    </linearGradient>
+    <linearGradient id="te-star" x1="26" y1="4" x2="34" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect x="9" y="9" width="22" height="22" rx="5.5" fill="#5B5BF5" opacity="0.28"/>
+  <rect x="5" y="5" width="22" height="22" rx="5.5" fill="url(#te-card)"/>
+  <path d="M11.3 13.2h9.6M16.1 13.2v8" stroke="#fff" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M29.8 4.2c.55 2.3 1.55 3.3 3.85 3.85-2.3.55-3.3 1.55-3.85 3.85-.55-2.3-1.55-3.3-3.85-3.85 2.3-.55 3.3-1.55 3.85-3.85Z" fill="url(#te-star)"/>
+</svg>
