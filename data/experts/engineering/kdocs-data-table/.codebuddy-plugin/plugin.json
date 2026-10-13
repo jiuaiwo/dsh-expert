@@ -1,0 +1,71 @@
+{
+  "name": "kdocs-data-table",
+  "version": "2.6.4",
+  "description": "数据建表专家：接龙转表格、智能表单创建、表格美化。",
+  "author": {
+    "name": "Kingsoft Office",
+    "email": "kdocs@wps.com"
+  },
+  "expertType": "agent",
+  "agentName": "kdocs-data-table",
+  "agents": [
+    "./agents/kdocs-data-table.md"
+  ],
+  "skills": [
+    "./skills/jielong-table",
+    "./skills/form-collection",
+    "./skills/table-beautify"
+  ],
+  "displayName": {
+    "en": "KDocs Smart Table Assistant",
+    "zh": "金山文档智能建表助手"
+  },
+  "profession": {
+    "en": "Data Table Expert",
+    "zh": "数据建表专家"
+  },
+  "displayDescription": {
+    "en": "By Kingsoft Docs Turn group-chat jielong into structured tables, create shareable WPS smart forms, and beautify spreadsheets with rule enforcement (conditional formatting, data validation dropdowns, and range protection). Excels at jielong parsing, form design, format normalization and deduplication.",
+    "zh": "金山文档出品，专注接龙转表与智能表单，支持条件格式、数据校验和区域保护，省心好用。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我把这段接龙整理成表格：\n1. 张三 2份牛肉\n2. 李四 1份鸡排 3份牛肉\n3. 王五 5份鸡排",
+    "en": "Turn this jielong into a table: 1. Zhang San 2x beef 2. Li Si 1x chicken 3x beef 3. Wang Wu 5x chicken"
+  },
+  "tags": [
+    {
+      "en": "Jielong to Table",
+      "zh": "接龙转表格"
+    },
+    {
+      "en": "Smart Form",
+      "zh": "智能表单"
+    },
+    {
+      "en": "Smart Sheet",
+      "zh": "智能表格"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Turn this jielong into a table: 1. Zhang San 2x beef 2. Li Si 1x chicken 3x beef 3. Wang Wu 5x chicken",
+      "zh": "帮我把这段接龙整理成表格：\n1. 张三 2份牛肉\n2. 李四 1份鸡排 3份牛肉\n3. 王五 5份鸡排"
+    },
+    {
+      "en": "Create a class outing sign-up form collecting name, phone, bus needed, and lunch preference",
+      "zh": "帮我做一个班级春游报名表，收集姓名、联系电话、是否需要租车、午餐偏好"
+    },
+    {
+      "en": "Clean up this customer info sheet — some phone formats are inconsistent and some rows are duplicates",
+      "zh": "帮我优化一下这个客户信息表，有些手机号格式不统一，有些行是重复的"
+    }
+  ],
+  "plugin": "kdocs-data-table",
+  "dependencies": {
+    "connectors": [
+      "kdocs"
+    ]
+  }
+}

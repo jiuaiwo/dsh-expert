@@ -1,0 +1,22 @@
+{
+  "_note": "T专家 的中文人工补译层（人工维护）。键是专家 slug。名字/简介写在本文件的 names/descriptions；正文另放 zh/manual-bodies/<分区>/<slug>.md（最高优先，同步清场时整棵子树跳过、永不被删）。上游新增专家若缺译文会出现在 zh/COVERAGE.json 的 gaps 里，在这里补上即可。",
+  "names": {
+    "engineering-ats-validator-architect": "ATS 简历解析验证架构师",
+    "engineering-pdf-engine-architect": "PDF 引擎架构师",
+    "engineering-platform-engineer": "平台工程专家",
+    "engineering-universal-document-compiler": "通用文档编译器架构师",
+    "specialized-focus-music-architect": "专注音乐架构师",
+    "engineering-network-engineer-china": "中国网络工程师"
+  },
+  "descriptions": {
+    "engineering-ats-validator-architect": "面向招聘系统（ATS）与简历解析器的架构与验证专家——用确定性检索（BM25/TF-IDF 与 n-gram，不依赖 AI）、按资历校准的 Google/IBM X-Y-Z 量化启发式、版面线性化与 PDF 文本层完整性审计、EU AI Act 与 NYC LL 144 合规，以及 5ms 内前端执行与 BYOK 架构，保证简历能被机器正确读出。",
+    "engineering-knowledge-graph-engineer": "把信息与能力组织成互相连接的实体与关系节点，支撑动态上下文导航、模块化能力串联、更低的 token 成本与更少的幻觉。",
+    "engineering-pdf-engine-architect": "HTML 转 PDF 的确定性编译专家：Playwright 浏览器上下文池、按内容动态计算欧氏页面尺寸、LayoutNG 亚像素预算、带标签 PDF（PDF/UA-1、PDF/A-2b）以及 1:1 纸张画布编辑器。",
+    "engineering-platform-engineer": "内部开发者平台（IDP）工程专家：设计黄金路径与铺好的路，把基础设施做成自助服务，成倍放大工程效率。",
+    "engineering-universal-document-compiler": "通用文档编译器架构师：与 schema 无关的文档 AST、按数据形态自动推断版面、CST 与画布双向同步、通用分页文档发布。",
+    "research-synthesist": "文献综述与证据综合专家：把散落一地的资料整理成结构化、诚实标注证据权重的结论地图。",
+    "specialized-focus-music-architect": "器乐专注音乐与神经声学提示词专家：为深度心流与生成式音频模型设计高产出提示、声景架构、BPM 曲线与双耳节拍层。",
+    "specialized-master-plan-architect": "总体规划架构师与技术讲师：擅长架构深度教学、红队式风险批判，并用 Markdown 产出完整实施计划（零代码执行）。",
+    "engineering-network-engineer-china": "面向国产网络设备的企业网工程专家：精通华为 VRP、华三 Comware、锐捷 RGOS 与山石 StoneOS，覆盖路由交换、防火墙、NAT 与等保 2.0（MLPS 2.0）合规边界设计，能在生产网上完成规划、割接与排障。"
+  }
+}

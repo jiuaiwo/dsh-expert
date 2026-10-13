@@ -1,0 +1,38 @@
+{
+  "//": "类型检查（D-3）：只检查**本仓自研**的 Host 文件，不碰构建产物 lib/client.js。",
+  "//checkJs": "全局 checkJs 关闭，靠各文件顶部的 // @ts-check 逐文件开启 —— 这样被它们 import 的引擎文件不会一起被检查。",
+  "//include": "凡带 // @ts-check 的自研 lib/*.js 都必须在这里列名，否则那个标记是**死**的（tsc 根本不会读它，改了也没人拦）—— 自检 [20] 会盯着这条不变量。",
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2023"
+    ],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "lib/index.js",
+    "lib/catalog.js",
+    "lib/fetch-assets.js",
+    "lib/i18n.js",
+    "lib/remote.js",
+    "lib/remote-schemas.js",
+    "lib/skill.js",
+    "lib/bootstrap.js",
+    "lib/skill-gate/constants.js",
+    "lib/skill-gate/discover.js",
+    "lib/skill-gate/install.js",
+    "lib/skill-gate/overlay.js",
+    "lib/skill-gate/remote-schemas.js",
+    "lib/skill-gate/store.js"
+  ]
+}
