@@ -1,0 +1,7 @@
+# 由 `dsh plugin add` 读取并合并到目标 profile。
+# remote 行让 api-gateway 从根服务表发现 T专家 的 Typert 服务（wire 名 tTeam）。
+- insert:
+    - id: t-team-remote
+      name: 'dsh-expert/remote'
+    - id: t-team
+      name: 'dsh-expert'

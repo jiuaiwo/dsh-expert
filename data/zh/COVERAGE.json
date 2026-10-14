@@ -1,0 +1,23 @@
+{
+  "bodies": 321,
+  "descriptions": 323,
+  "divisions": 22,
+  "duplicateChineseNames": {},
+  "experts": 323,
+  "gaps": {
+    "missingBody": [
+      "engineering-deepseek-harness-project-expert",
+      "engineering-typescript-npm-stack-maintainer"
+    ],
+    "missingDescription": [],
+    "missingName": []
+  },
+  "generatedFrom": "data/experts + data/zh（本仓名册真源；上游镜像 vendor/agency-agents 已于 2026-09-12 移除）",
+  "manualOverrides": {
+    "bodies": 6,
+    "descriptions": 9,
+    "names": 6
+  },
+  "names": 323,
+  "unlabelledDivisions": []
+}

@@ -1,0 +1,71 @@
+{
+  "name": "kdocs-doc-butler",
+  "version": "2.6.4",
+  "description": "文档管家：文档创建、搜索定位、智能分类整理、分享管理，一站式文档全生命周期管理。",
+  "author": {
+    "name": "Kingsoft Office",
+    "email": "kdocs@wps.com"
+  },
+  "expertType": "agent",
+  "agentName": "kdocs-doc-butler",
+  "agents": [
+    "./agents/kdocs-doc-butler.md"
+  ],
+  "skills": [
+    "./skills/create-doc",
+    "./skills/doc-search",
+    "./skills/doc-classify"
+  ],
+  "displayName": {
+    "en": "KDocs Doc Butler Assistant",
+    "zh": "金山文档文档管家助手"
+  },
+  "profession": {
+    "en": "Doc Butler",
+    "zh": "文档管家"
+  },
+  "displayDescription": {
+    "en": "By Kingsoft Docs End-to-end Kingsoft Docs lifecycle management: create docs of any type, locate files by keyword, AI-classify folders by topic, batch move/rename, and manage sharing links with permissions.",
+    "zh": "金山文档出品，覆盖新建搜索、分类整理与分享权限管理，助力文档全生命周期一站搞定。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我搜一下金山文档里有没有「合同」相关的文件",
+    "en": "Search my Kdocs for any files related to 'contract'"
+  },
+  "tags": [
+    {
+      "en": "Doc Creation",
+      "zh": "文档创建"
+    },
+    {
+      "en": "Smart Organize",
+      "zh": "智能整理"
+    },
+    {
+      "en": "Doc Search",
+      "zh": "文档搜索"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Search my Kdocs for any files related to 'contract'",
+      "zh": "帮我搜一下金山文档里有没有「合同」相关的文件"
+    },
+    {
+      "en": "Organize the 'Work' folder — it's messy, auto-classify and archive by content",
+      "zh": "帮我整理一下「工作」文件夹，里面文件太乱了，按内容自动分类归档一下"
+    },
+    {
+      "en": "Move all files in 'Weekly Reports' to the '2026 Archive' folder",
+      "zh": "把「周报」文件夹下的所有文件移到「2026年归档」文件夹"
+    }
+  ],
+  "plugin": "kdocs-doc-butler",
+  "dependencies": {
+    "connectors": [
+      "kdocs"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-10-13 21:40:00 +0800",
+  "expertFiles": 636,
+  "divisions": [
+    "academic",
+    "company",
+    "design",
+    "engineering",
+    "finance",
+    "game-development",
+    "gis",
+    "healthcare",
+    "hr",
+    "legal",
+    "marketing",
+    "paid-media",
+    "product",
+    "project-management",
+    "research",
+    "sales",
+    "security",
+    "spatial-computing",
+    "specialized",
+    "supply-chain",
+    "support",
+    "testing"
+  ],
+  "note": "本仓名册清单：data/experts 是真源（含从 WorkBuddy 导入的目录形态专家）。2026-09-29 移除 22 位绑定腾讯内部系统的专家（代码层端点指向 *.woa.com 等内网域名），645 → 623。2026-10-13 增量同步：WorkBuddy 侧整批重新打包（ETag 全变、正文无实质变化），补入 23 位此前未导入的专家，并清掉 18 位与存量重复的新导入项（9 位 unity/unreal/godot、2 位 roblox 与存量嵌套单文件同 slug，7 位与存量同名不同 slug），623 → 636。"
+}
