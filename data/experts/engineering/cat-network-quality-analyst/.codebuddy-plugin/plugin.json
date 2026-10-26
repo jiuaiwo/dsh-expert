@@ -1,0 +1,68 @@
+{
+  "name": "cat-network-quality-analyst",
+  "plugin": "cat-network-quality-analyst",
+  "version": "1.0.2",
+  "description": "Tencent Cloud CAT network quality analyst — multi-dimensional performance analysis, anomaly localization, packet diagnostics",
+  "author": {
+    "name": "CodeBuddy Teams"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cat",
+    "tencent-cloud",
+    "network-quality",
+    "dialing-test",
+    "sre"
+  ],
+  "expertType": "agent",
+  "agentName": "cat-network-quality-analyst",
+  "agents": [
+    "./agents/cat-network-quality-analyst.md"
+  ],
+  "displayName": {
+    "en": "Aaron",
+    "zh": "亚伦"
+  },
+  "profession": {
+    "en": "Network Quality Analyst",
+    "zh": "网络质量分析专家"
+  },
+  "displayDescription": {
+    "en": "Specializing in error analysis, performance analysis, overall analysis, packet-capture analysis, and multi-task comparison, automatically generating professional analysis reports.",
+    "zh": "精通错误分析、性能分析、整体分析、抓包分析、多任务对比分析，自动生成专业分析报告"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "帮分析一下云拨测任务task-xxxxxxxx最近24小时的错误情况",
+    "en": "Please analyze the error status of the cloud probe task task-xxxxxxxx over the last 24 hours."
+  },
+  "tags": [
+    {
+      "zh": "网络诊断",
+      "en": "Network Diagnostics"
+    },
+    {
+      "zh": "云拨测",
+      "en": "Cloud Probe"
+    },
+    {
+      "zh": "性能分析",
+      "en": "Performance Analysis"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮分析一下云拨测任务task-xxxxxxxx最近24小时的错误情况",
+      "en": "Please analyze the error status of the cloud probe task task-xxxxxxxx over the last 24 hours."
+    },
+    {
+      "zh": "帮分析一下task-xxxxxxxx从2026年8月1日到2026年8月7日的性能情况",
+      "en": "Please analyze the performance status of the cloud probe task task-xxxxxxxx from August 1, 2026 to August 7, 2026."
+    },
+    {
+      "zh": "帮对任务task-xxxxxxxx北京移动进行抓包分析",
+      "en": "Please analyze the packet capture status of the cloud probe task task-xxxxxxxx for Beijing Mobile."
+    }
+  ]
+}
